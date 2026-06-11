@@ -1,0 +1,115 @@
+{
+  "version": "1",
+  "dataAsOf": "2026-06-10",
+  "updatedAt": "2026-06-10T22:00:00Z",
+  "exportedAt": "2026-06-10T22:00:00Z",
+  "data": {
+    "DISTRICT": {
+      "id": "pa-07",
+      "name": "PA-07 (US Congressional District)",
+      "state": "Pennsylvania",
+      "counties": [
+        "Lehigh",
+        "Northampton",
+        "Carbon",
+        "Monroe (parts)"
+      ]
+    },
+    "UPDATES": [],
+    "CONFLICTS": [],
+    "NEWS": [
+      {
+        "headline": "Democratic registration drops in key midterm districts",
+        "sourceName": "Spotlight PA / NOTUS",
+        "url": "https://www.spotlightpa.org/news/2026/06/democratic-voter-registration-decline-swing-districts-federal-government/",
+        "publishedAt": "2026-06-09",
+        "relevanceSummary": "An NRCC analysis covering 28 battleground districts \u2014 including Pennsylvania's 7th \u2014 found Democrats have lost registered voters since November 2024 in all four Pennsylvania battleground seats, though the story notes Democrats have recently shown net voter gains in Pennsylvania overall. The data reveals PA-07 is among the specific districts tracked, complicating the general-election environment for Democratic nominee Bob Brooks.",
+        "tag": "administration",
+        "id": "news-2026-0610-pa-07-01",
+        "reviewState": "new"
+      },
+      {
+        "headline": "Trump admin has weakened federal election oversight ahead of midterms",
+        "sourceName": "Spotlight PA / NOTUS",
+        "url": "https://www.spotlightpa.org/news/2026/06/midterms-command-center-public-integrity-section-trump-federal-government/",
+        "publishedAt": "2026-06-08",
+        "relevanceSummary": "The Justice Department has canceled election-integrity training sessions, deleted its 281-page guide to prosecuting election offenses, and disbanded its Election Day command center \u2014 a posture that directly affects how voter-intimidation and disinformation complaints in Pennsylvania's swing districts, including PA-07's Lehigh Valley counties, would be handled in November. Former PA-07 primary candidate Ryan Crosswell, a former federal prosecutor, is quoted criticizing the changes.",
+        "tag": "administration",
+        "id": "news-2026-0610-pa-07-02",
+        "reviewState": "new"
+      },
+      {
+        "headline": "Study: Ballot curing helps more mail ballots get counted",
+        "sourceName": "Votebeat / Spotlight PA",
+        "url": "https://www.spotlightpa.org/news/2026/06/mail-ballot-notice-cure-study-university-pennsylvania-study-2024-election-elections/",
+        "publishedAt": "2026-06-03",
+        "relevanceSummary": "A University of Pennsylvania study of the 2024 election found voters are 25 percentage points more likely to have their vote counted when notified of a disqualifying mail-ballot error before Election Day \u2014 directly relevant to PA-07 after Lehigh County sent thousands of voters incorrect ballots in the May 19 primary. The study notes roughly 20% of 2026 primary mail-ballot requestors did not provide an email address, leaving them at risk in counties that rely on email for error notification.",
+        "tag": "rule-change",
+        "id": "news-2026-0610-pa-07-03",
+        "reviewState": "new"
+      },
+      {
+        "headline": "Judge declines to stop Trump mail voting exec order",
+        "sourceName": "Spotlight PA",
+        "url": "https://www.spotlightpa.org/news/2026/05/mail-voting-trump-executive-order-elections/",
+        "publishedAt": "2026-05-28",
+        "relevanceSummary": "A federal judge refused to block Trump's executive order creating a federal voter list and restricting USPS mail-ballot delivery, leaving in place a rule that election officials warn could cause November-election chaos in densely populated swing districts like PA-07. No implementation changes are expected before the November 3 general election, but a second lawsuit in Boston remains pending.",
+        "tag": "litigation",
+        "id": "news-2026-0610-pa-07-04",
+        "reviewState": "new"
+      },
+      {
+        "headline": "Bob Brooks rides blue-collar bona fides to victory in PA",
+        "sourceName": "Spotlight PA",
+        "url": "https://www.spotlightpa.org/news/2026/05/primary-election-results-bob-brooks-ryan-mackenzie-federal-government/",
+        "publishedAt": "2026-05-20",
+        "relevanceSummary": "Retired Bethlehem firefighter and Pennsylvania Professional Fire Fighters Association president Bob Brooks won the Democratic primary for PA-07 by roughly 15 points, setting up the November 3 general-election matchup against incumbent Republican Rep. Ryan Mackenzie in one of the nation's top House toss-up races. Brooks is a DCCC Red to Blue designee; Mackenzie won the seat in 2024 by just ~4,000 votes over then-Rep. Susan Wild.",
+        "tag": "primary",
+        "id": "news-2026-0610-pa-07-05",
+        "reviewState": "new"
+      },
+      {
+        "headline": "Pennsylvania DOJ Voter Data Access Challenge \u2014 DOJ files motion to dismiss or for summary judgment",
+        "sourceName": "Democracy Docket",
+        "url": "https://www.democracydocket.com/cases/pennsylvania-doj-voter-data-access-challenge/",
+        "publishedAt": "2026-06-02",
+        "relevanceSummary": "On June 2, the DOJ filed a motion to dismiss or for summary judgment in its lawsuit seeking to compel Pennsylvania to hand over unredacted voter registration data \u2014 including birth dates and other sensitive information \u2014 from its statewide SURE system. PA Secretary Al Schmidt has refused, citing privacy protections; PA-07's Lehigh, Northampton, and Carbon county voters are among those whose personal data is at issue in the case.",
+        "tag": "litigation",
+        "id": "news-2026-0610-pa-07-06",
+        "reviewState": "new"
+      }
+    ],
+    "SOURCES": [],
+    "ELECTION_EVENTS": [],
+    "RULES": [],
+    "RESOURCES": [],
+    "LAST_REFRESH": {
+      "id": "run-2026-06-10T22-00-00-pa-07",
+      "startedAt": "2026-06-10T21:59:30.000Z",
+      "completedAt": "2026-06-10T22:00:00Z",
+      "triggerType": "manual",
+      "sourcesChecked": 14,
+      "updatesCreated": 0,
+      "conflictsCreated": 0,
+      "errors": [],
+      "summary": "PA-07 weekly refresh on 2026-06-10. Status: Pennsylvania primary (held), general election Nov 3 (146 days out). Incumbent: Rep. Ryan Mackenzie (R); opponent: Democrat Bob Brooks (primary winner May 19). Six new news items added covering the past week (Jun 3-10). PA-07 general election matchup set: Bob Brooks (D) vs. Ryan Mackenzie (R). This week's stories center on a Spotlight PA / NOTUS analysis of Democratic registration drops in key midterm districts, Trump administration weakening of federal election oversight, and a Votebeat study showing ballot curing meaningfully boosts mail-ballot counts in PA. Procedural rules and election-event dates unchanged from the bundle baseline; all news items routed to the human-review queue for editor confirmation."
+    },
+    "NEXT_REFRESH_AT": "2026-06-12T22:00:00Z",
+    "WEEKLY_REPORT": {
+      "id": "wr-2026-w24-pa-07",
+      "periodStart": "2026-06-08",
+      "periodEnd": "2026-06-14",
+      "sourcesChecked": 14,
+      "newUpdates": 0,
+      "conflictsCreated": 0,
+      "conflictsResolved": 0,
+      "deadlinesChanged": 0,
+      "rulesChanged": 0,
+      "newsItems": 6,
+      "needsReview": 6,
+      "sourceErrors": 0,
+      "summary": "PA-07 general election matchup set: Bob Brooks (D) vs. Ryan Mackenzie (R). This week's stories center on a Spotlight PA / NOTUS analysis of Democratic registration drops in key midterm districts, Trump administration weakening of federal election oversight, and a Votebeat study showing ballot curing meaningfully boosts mail-ballot counts in PA.",
+      "generatedAt": "2026-06-10T22:00:00Z"
+    }
+  }
+}
