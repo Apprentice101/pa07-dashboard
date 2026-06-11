@@ -110,6 +110,8 @@
       "sourceErrors": 0,
       "summary": "PA-07 general election matchup set: Bob Brooks (D) vs. Ryan Mackenzie (R). This week's stories center on a Spotlight PA / NOTUS analysis of Democratic registration drops in key midterm districts, Trump administration weakening of federal election oversight, and a Votebeat study showing ballot curing meaningfully boosts mail-ballot counts in PA.",
       "generatedAt": "2026-06-10T22:00:00Z"
-    }
-  }
+    },
+    "districtNumber": "PA-07"
+  },
+  "districtCode": "PA-07"
 }
