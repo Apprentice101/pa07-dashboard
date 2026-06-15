@@ -1,117 +1,975 @@
 {
   "version": "1",
-  "dataAsOf": "2026-06-10",
-  "updatedAt": "2026-06-10T22:00:00Z",
-  "exportedAt": "2026-06-10T22:00:00Z",
+  "dataAsOf": "2026-06-02",
+  "updatedAt": "2026-06-02T21:45:00Z",
+  "exportedAt": "2026-06-15T19:44:12.828Z",
+  "districtCode": "PA-07",
   "data": {
     "DISTRICT": {
       "id": "pa-07",
-      "name": "PA-07 (US Congressional District)",
+      "districtNumber": "PA-07",
+      "districtName": "Pennsylvania Congressional District 7",
       "state": "Pennsylvania",
       "counties": [
-        "Lehigh",
-        "Northampton",
-        "Carbon",
-        "Monroe (parts)"
-      ]
+        "Carbon County",
+        "Lehigh County",
+        "Northampton County",
+        "Monroe County (part)"
+      ],
+      "majorPlaces": [
+        "Allentown",
+        "Bethlehem",
+        "Easton",
+        "Jim Thorpe",
+        "Stroudsburg area"
+      ],
+      "cycleYear": 2026,
+      "population": 760000,
+      "registeredVoters": 510000,
+      "partyRegistration": [
+        {
+          "label": "Democratic",
+          "count": 230000,
+          "pct": 45.1
+        },
+        {
+          "label": "Republican",
+          "count": 215000,
+          "pct": 42.2
+        },
+        {
+          "label": "Other / Independent",
+          "count": 60000,
+          "pct": 11.8
+        },
+        {
+          "label": "Libertarian / Other minor",
+          "count": 5000,
+          "pct": 1
+        }
+      ],
+      "previousResult": {
+        "year": 2024,
+        "seat": "U.S. House — PA-07",
+        "winner": {
+          "name": "Sample Incumbent (Sample party)",
+          "pct": 50.4,
+          "votes": 198500
+        },
+        "runnerUp": {
+          "name": "Sample Challenger (Sample party)",
+          "pct": 49.1,
+          "votes": 193400
+        },
+        "turnoutPct": 71.2
+      },
+      "primary2026": {
+        "electionDate": "2026-05-19",
+        "democraticNominee": "Bob Brooks",
+        "republicanNominee": "Ryan Mackenzie",
+        "notes": "Bob Brooks (D), president of the PA Fire Fighters Association, won the Democratic primary. Ryan Mackenzie (R) is the Republican nominee. Both advance to the Nov. 3, 2026 general election."
+      }
     },
-    "UPDATES": [],
-    "CONFLICTS": [],
+    "SOURCES": {
+      "src-pa-upcoming": {
+        "id": "src-pa-upcoming",
+        "name": "PA.gov — Upcoming Elections",
+        "short": "PA Upcoming",
+        "url": "https://www.pa.gov/agencies/vote/elections/upcoming-elections",
+        "publisher": "Commonwealth of Pennsylvania — Department of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-01-12",
+        "lastVerified": "2026-05-26",
+        "confidence": "high"
+      },
+      "src-pa-mail-absentee": {
+        "id": "src-pa-mail-absentee",
+        "name": "PA.gov — Mail-in & Absentee Ballot",
+        "short": "PA Mail/Absentee",
+        "url": "https://www.pa.gov/agencies/vote/voter-support/mail-in-and-absentee-ballot",
+        "publisher": "Commonwealth of Pennsylvania — Department of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-01-12",
+        "lastVerified": "2026-05-26",
+        "confidence": "high"
+      },
+      "src-pa-ballot-tracking": {
+        "id": "src-pa-ballot-tracking",
+        "name": "PA Voter Services — Ballot Tracking",
+        "short": "PA Ballot Tracking",
+        "url": "https://www.pavoterservices.pa.gov/pages/ballottracking.aspx",
+        "publisher": "PA Department of State — Voter Services",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-01-12",
+        "lastVerified": "2026-05-26",
+        "confidence": "high"
+      },
+      "src-pa-register": {
+        "id": "src-pa-register",
+        "name": "PA Voter Services — Register to Vote",
+        "short": "PA Register",
+        "url": "https://www.pavoterservices.pa.gov/pages/voterregistrationapplication.aspx",
+        "publisher": "PA Department of State — Voter Services",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-01-12",
+        "lastVerified": "2026-05-26",
+        "confidence": "high"
+      },
+      "src-pa-reg-status": {
+        "id": "src-pa-reg-status",
+        "name": "PA Voter Services — Registration Status",
+        "short": "PA Reg Status",
+        "url": "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx",
+        "publisher": "PA Department of State — Voter Services",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-01-12",
+        "lastVerified": "2026-05-26",
+        "confidence": "high"
+      },
+      "src-pa-county-officials": {
+        "id": "src-pa-county-officials",
+        "name": "PA.gov — Contact Your County Election Officials",
+        "short": "PA County Contacts",
+        "url": "https://www.pa.gov/agencies/vote/contact-us/contact-your-election-officials",
+        "publisher": "Commonwealth of Pennsylvania — Department of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-01-12",
+        "lastVerified": "2026-05-26",
+        "confidence": "high"
+      },
+      "src-pa-title25": {
+        "id": "src-pa-title25",
+        "name": "Pennsylvania Title 25 — Elections Statutes",
+        "short": "PA Title 25",
+        "url": "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/25/25.HTM",
+        "publisher": "Pennsylvania General Assembly",
+        "sourceType": "statutory",
+        "hierarchyLevel": 3,
+        "dateAccessed": "2026-01-10",
+        "lastVerified": "2026-05-26",
+        "confidence": "high"
+      },
+      "src-pa-election-code-pdf": {
+        "id": "src-pa-election-code-pdf",
+        "name": "PA Election Code (1937, Act 320) PDF",
+        "short": "PA Election Code PDF",
+        "url": "https://www.legis.state.pa.us/wu01/li/li/us/pdf/1937/0/0320..pdf",
+        "publisher": "Pennsylvania General Assembly",
+        "sourceType": "statutory",
+        "hierarchyLevel": 3,
+        "dateAccessed": "2026-01-10",
+        "lastVerified": "2026-05-26",
+        "confidence": "high",
+        "notes": "Linked only — PDF is not downloaded or archived locally."
+      },
+      "src-lehigh-vr": {
+        "id": "src-lehigh-vr",
+        "name": "Lehigh County — Voter Registration & Elections",
+        "short": "Lehigh County",
+        "url": "https://www.lehighcounty.org/Departments/Voter-registration",
+        "publisher": "Lehigh County Government",
+        "sourceType": "official-county",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-01-12",
+        "lastVerified": "2026-05-26",
+        "confidence": "high"
+      },
+      "src-northampton-elections": {
+        "id": "src-northampton-elections",
+        "name": "Northampton County — Election & Voting",
+        "short": "Northampton County",
+        "url": "https://www.norcopa.gov/election-voting",
+        "publisher": "Northampton County Government",
+        "sourceType": "official-county",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-01-12",
+        "lastVerified": "2026-05-26",
+        "confidence": "high"
+      },
+      "src-monroe-mailin": {
+        "id": "src-monroe-mailin",
+        "name": "Monroe County — Mail-in & Absentee Ballots",
+        "short": "Monroe County",
+        "url": "https://www.monroecountypa.gov/departments/elections/resources/votingmailin",
+        "publisher": "Monroe County Government",
+        "sourceType": "official-county",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-01-12",
+        "lastVerified": "2026-05-26",
+        "confidence": "high"
+      },
+      "src-carbon-placeholder": {
+        "id": "src-carbon-placeholder",
+        "name": "Carbon County — Elections (contact placeholder)",
+        "short": "Carbon County",
+        "url": "https://www.pa.gov/agencies/vote/contact-us/contact-your-election-officials",
+        "publisher": "Carbon County / PA Department of State",
+        "sourceType": "official-county",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-01-12",
+        "lastVerified": "2026-05-26",
+        "confidence": "low",
+        "notes": "Re-checked May 17, 2026. Carbon County homepage was reachable, but no direct county elections page was confirmed from the retrieved content; voters are routed to the PA county-contact directory until a direct URL is verified."
+      },
+      "src-ballotpedia-pa07": {
+        "id": "src-ballotpedia-pa07",
+        "name": "Ballotpedia — Pennsylvania's 7th Congressional District",
+        "short": "Ballotpedia PA-07",
+        "url": "https://ballotpedia.org/Pennsylvania%27s_7th_Congressional_District",
+        "publisher": "Ballotpedia",
+        "sourceType": "secondary",
+        "hierarchyLevel": 7,
+        "dateAccessed": "2026-01-12",
+        "lastVerified": "2026-05-26",
+        "confidence": "medium",
+        "notes": "Used as district-context/secondary source for PA-07 boundary and previous results. Cross-check against an official map source before public reliance."
+      },
+      "src-spotlightpa-dating": {
+        "id": "src-spotlightpa-dating",
+        "name": "Spotlight PA — Mail Ballot Envelope Dating Explainer",
+        "short": "Spotlight PA",
+        "url": "https://www.spotlightpa.org/news/2026/05/2026-primary-mail-ballot-envelope-dating-explainer-court-cases-elections/",
+        "publisher": "Spotlight PA",
+        "sourceType": "news",
+        "hierarchyLevel": 6,
+        "dateAccessed": "2026-01-12",
+        "lastVerified": "2026-05-26",
+        "confidence": "medium"
+      },
+      "src-pa-dos-mail-deadline-news": {
+        "id": "src-pa-dos-mail-deadline-news",
+        "name": "PA Department of State — One-week mail ballot deadline reminder",
+        "short": "PA DoS News",
+        "url": "https://www.pa.gov/agencies/dos/newsroom/one-week-mail-ballot-deadline-2026-primary",
+        "publisher": "Commonwealth of Pennsylvania — Department of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-05-17",
+        "lastVerified": "2026-05-26",
+        "confidence": "high"
+      },
+      "src-votebeat-pa": {
+        "id": "src-votebeat-pa",
+        "name": "VoteBeat — Pennsylvania",
+        "short": "VoteBeat PA",
+        "url": "https://www.votebeat.org/pennsylvania/",
+        "publisher": "VoteBeat",
+        "sourceType": "news",
+        "hierarchyLevel": 6,
+        "dateAccessed": "2026-05-17",
+        "lastVerified": "2026-05-26",
+        "confidence": "medium"
+      },
+      "src-lehigh-mailballot-update": {
+        "id": "src-lehigh-mailballot-update",
+        "name": "Lehigh County — May 15 mail balloting update PDF",
+        "short": "Lehigh Mail Update",
+        "url": "https://www.lehighcounty.org/Portals/0/PDF/Voter/UPDATE_5-15.pdf",
+        "publisher": "Lehigh County Government",
+        "sourceType": "official-county",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-05-17",
+        "lastVerified": "2026-05-26",
+        "confidence": "high",
+        "notes": "Linked only — PDF is not downloaded or archived locally."
+      },
+      "src-whyy-pa-voter-guide": {
+        "id": "src-whyy-pa-voter-guide",
+        "name": "WHYY — Pennsylvania 2026 primary voter guide",
+        "short": "WHYY",
+        "url": "https://whyy.org/articles/pennsylvania-election-2026-primary-voter-guide-deadlines/",
+        "publisher": "WHYY",
+        "sourceType": "news",
+        "hierarchyLevel": 6,
+        "dateAccessed": "2026-05-17",
+        "lastVerified": "2026-05-26",
+        "confidence": "medium"
+      },
+      "src-spotlightpa-voter-guide": {
+        "id": "src-spotlightpa-voter-guide",
+        "name": "Spotlight PA — 2026 PA primary last-minute voter guide",
+        "short": "Spotlight PA Guide",
+        "url": "https://www.spotlightpa.org/news/2026/05/pennsylvania-primary-election-day-2026-last-minute-voting-guide-elections/",
+        "publisher": "Spotlight PA",
+        "sourceType": "news",
+        "hierarchyLevel": 6,
+        "dateAccessed": "2026-05-17",
+        "lastVerified": "2026-05-26",
+        "confidence": "medium"
+      }
+    },
+    "ELECTION_EVENTS": [
+      {
+        "id": "ev-primary-reg-deadline",
+        "electionType": "primary",
+        "milestone": "Voter registration deadline",
+        "date": "2026-05-04",
+        "significance": "Last day to register to vote in the PA May 19, 2026 primary.",
+        "governingAuthority": "PA Department of State / county election offices",
+        "sourceIds": [
+          "src-pa-upcoming",
+          "src-pa-register"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-26",
+        "status": "confirmed"
+      },
+      {
+        "id": "ev-primary-mail-request",
+        "electionType": "primary",
+        "milestone": "Mail-in / absentee ballot request deadline",
+        "date": "2026-05-12",
+        "significance": "Mail-in and absentee ballot applications must be received by the county election office by 5:00 PM.",
+        "governingAuthority": "PA Department of State",
+        "sourceIds": [
+          "src-pa-upcoming",
+          "src-pa-mail-absentee"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-26",
+        "status": "confirmed"
+      },
+      {
+        "id": "ev-primary-day",
+        "electionType": "primary",
+        "milestone": "Primary election day",
+        "date": "2026-05-19",
+        "significance": "Pennsylvania statewide primary. Polls open 7:00 AM – 8:00 PM.",
+        "governingAuthority": "PA Department of State",
+        "sourceIds": [
+          "src-pa-upcoming"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-26",
+        "status": "confirmed"
+      },
+      {
+        "id": "ev-primary-receipt",
+        "electionType": "primary",
+        "milestone": "Mail-in / absentee ballot receipt deadline",
+        "date": "2026-05-19",
+        "significance": "Voted mail-in and absentee ballots must be received by the county election office by 8:00 PM. Postmarks are not sufficient.",
+        "governingAuthority": "PA Department of State / county election offices",
+        "sourceIds": [
+          "src-pa-mail-absentee",
+          "src-pa-upcoming"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-26",
+        "status": "confirmed"
+      },
+      {
+        "id": "ev-primary-dating-watch",
+        "electionType": "primary",
+        "milestone": "Outer-envelope dating rule (watch)",
+        "date": null,
+        "significance": "Court cases continue to affect whether undated or misdated mail-ballot envelopes are counted. Status flagged for human review.",
+        "governingAuthority": "PA courts / PA Department of State",
+        "sourceIds": [
+          "src-spotlightpa-dating",
+          "src-pa-mail-absentee"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-05-26",
+        "status": "unconfirmed"
+      },
+      {
+        "id": "ev-general-reg-deadline",
+        "electionType": "general",
+        "milestone": "Voter registration deadline",
+        "date": "2026-10-19",
+        "significance": "Last day to register to vote in the November 3, 2026 general election.",
+        "governingAuthority": "PA Department of State / county election offices",
+        "sourceIds": [
+          "src-pa-upcoming",
+          "src-pa-register"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-26",
+        "status": "confirmed"
+      },
+      {
+        "id": "ev-general-mail-request",
+        "electionType": "general",
+        "milestone": "Mail-in / absentee ballot request deadline",
+        "date": "2026-10-27",
+        "significance": "Mail-in and absentee ballot applications must be received by the county election office by 5:00 PM.",
+        "governingAuthority": "PA Department of State",
+        "sourceIds": [
+          "src-pa-upcoming",
+          "src-pa-mail-absentee"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-26",
+        "status": "confirmed"
+      },
+      {
+        "id": "ev-general-day",
+        "electionType": "general",
+        "milestone": "General election day",
+        "date": "2026-11-03",
+        "significance": "U.S. midterm general election. Polls open 7:00 AM – 8:00 PM.",
+        "governingAuthority": "Federal / PA Department of State",
+        "sourceIds": [
+          "src-pa-upcoming"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-26",
+        "status": "confirmed"
+      },
+      {
+        "id": "ev-general-receipt",
+        "electionType": "general",
+        "milestone": "Mail-in / absentee ballot receipt deadline",
+        "date": "2026-11-03",
+        "significance": "Voted mail-in and absentee ballots must be received by the county election office by 8:00 PM. Postmarks are not sufficient.",
+        "governingAuthority": "PA Department of State / county election offices",
+        "sourceIds": [
+          "src-pa-mail-absentee",
+          "src-pa-upcoming"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-26",
+        "status": "confirmed"
+      }
+    ],
+    "RULES": [
+      {
+        "id": "rule-registration",
+        "topic": "Voter registration",
+        "currentRule": "Online, mail, or in-person registration through PA Voter Services or a county election office. Must be a U.S. citizen, PA resident in the district at least 30 days, and 18+ by election day.",
+        "status": "active",
+        "whyItMatters": "Determines who can cast a ballot in PA-07.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-pa-register",
+          "src-pa-upcoming"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-26",
+        "detail": "Registration applications must be received at least 15 days before the election. Primary deadline May 4, 2026; general deadline Oct. 19, 2026."
+      },
+      {
+        "id": "rule-mailin",
+        "topic": "No-excuse mail-in ballots",
+        "currentRule": "Any registered Pennsylvania voter may apply for a no-excuse mail-in ballot. No reason required.",
+        "status": "active",
+        "whyItMatters": "Mail-in ballots are a primary voting channel for many PA-07 voters.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-pa-mail-absentee"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-26"
+      },
+      {
+        "id": "rule-absentee",
+        "topic": "Absentee ballots require a reason",
+        "currentRule": "Absentee ballots are limited to voters who meet a qualifying reason (illness, disability, absence from the municipality, etc.). Voters who don't need a reason should use a mail-in ballot.",
+        "status": "active",
+        "whyItMatters": "Distinguishes the two PA mail-voting tracks and which application a voter should use.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-pa-mail-absentee"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-26"
+      },
+      {
+        "id": "rule-mail-request",
+        "topic": "Mail-in / absentee request deadline",
+        "currentRule": "Mail-in and absentee ballot applications must be received by the county election office by 5:00 PM seven days before election day.",
+        "status": "active",
+        "whyItMatters": "Late applications cannot be processed; voters must use in-person voting if missed.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-pa-mail-absentee",
+          "src-pa-upcoming"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-26",
+        "detail": "Primary: May 12, 2026 at 5:00 PM. General: Oct. 27, 2026 at 5:00 PM."
+      },
+      {
+        "id": "rule-return",
+        "topic": "Ballot receipt deadline",
+        "currentRule": "Voted mail-in and absentee ballots must be received by the county election office by 8:00 PM on election day. Postmarks are not sufficient.",
+        "status": "active",
+        "whyItMatters": "Late receipt is the most common rejection reason for mail-voted ballots.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-pa-mail-absentee",
+          "src-pa-upcoming"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-26"
+      },
+      {
+        "id": "rule-poll-hours",
+        "topic": "Polling place hours",
+        "currentRule": "Polls are open 7:00 AM to 8:00 PM on election day across Pennsylvania.",
+        "status": "active",
+        "whyItMatters": "Defines the window for in-person voting in PA-07.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-pa-upcoming"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-26"
+      },
+      {
+        "id": "rule-id",
+        "topic": "Voter ID / first-time voter ID",
+        "currentRule": "First-time voters at a polling place, and voters voting at a new polling place for the first time, are required to show acceptable ID. Returning voters at their established polling place generally do not need to show ID.",
+        "status": "watch",
+        "whyItMatters": "Affects in-person eligibility, especially for newly registered or recently moved voters.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-pa-upcoming",
+          "src-pa-title25"
+        ],
+        "confidence": "medium",
+        "lastVerified": "2026-05-26",
+        "needsReview": true,
+        "detail": "Sample/unverified summary. Confirm exact acceptable-ID list and first-time-voter rule against PA Title 25 and PA Department of State guidance before public release."
+      },
+      {
+        "id": "rule-envelope-dating",
+        "topic": "Mail-ballot outer-envelope dating (watch)",
+        "currentRule": "Pennsylvania law requires voters to handwrite a date on the mail-ballot outer envelope. Whether undated or misdated envelopes are counted has been the subject of ongoing litigation.",
+        "status": "watch",
+        "whyItMatters": "Affects whether a returned mail ballot is counted in close PA-07 contests.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-spotlightpa-dating",
+          "src-pa-mail-absentee"
+        ],
+        "confidence": "low",
+        "lastVerified": "2026-05-26",
+        "needsReview": true,
+        "detail": "Watch item — see Conflicts panel. Spotlight PA explainer and PA Department of State guidance should be reconciled before public reliance."
+      },
+      {
+        "id": "rule-tracking",
+        "topic": "Mail-ballot tracking",
+        "currentRule": "Voters can track their mail-in or absentee ballot status through PA Voter Services from application through receipt at the county election office.",
+        "status": "active",
+        "whyItMatters": "Lets voters confirm their ballot was received in time and resolve issues before deadlines.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-pa-ballot-tracking"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-26"
+      },
+      {
+        "id": "rule-county-admin",
+        "topic": "County election office administration",
+        "currentRule": "Pennsylvania elections are administered at the county level. Mail-in and absentee applications, ballots, and in-person logistics flow through each county's election office.",
+        "status": "active",
+        "whyItMatters": "PA-07 voters interact with Carbon, Lehigh, Northampton, or Monroe county election offices depending on residence.",
+        "governingLevel": "countywide",
+        "sourceIds": [
+          "src-pa-county-officials",
+          "src-lehigh-vr",
+          "src-northampton-elections",
+          "src-monroe-mailin"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-26"
+      },
+      {
+        "id": "rule-boundaries",
+        "topic": "District boundary",
+        "currentRule": "PA-07 includes all of Carbon, Lehigh, and Northampton counties and parts of Monroe County under the maps used for the 2022–2030 cycle.",
+        "status": "active",
+        "whyItMatters": "Determines who is a constituent of PA-07.",
+        "governingLevel": "district",
+        "sourceIds": [
+          "src-ballotpedia-pa07"
+        ],
+        "confidence": "medium",
+        "lastVerified": "2026-05-26",
+        "needsReview": true,
+        "detail": "District composition cited from Ballotpedia (district context / secondary). Cross-check against an official PA redistricting / map source before public reliance."
+      }
+    ],
+    "RESOURCES": [
+      {
+        "id": "res-register",
+        "label": "Register to vote",
+        "description": "Online voter registration application through PA Voter Services.",
+        "url": "https://www.pavoterservices.pa.gov/pages/voterregistrationapplication.aspx",
+        "governingAuthority": "PA Department of State",
+        "sourceType": "official-state",
+        "sourceId": "src-pa-register",
+        "lastVerified": "2026-05-26"
+      },
+      {
+        "id": "res-status",
+        "label": "Check registration status",
+        "description": "Confirm your Pennsylvania voter registration, party affiliation, and polling place.",
+        "url": "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx",
+        "governingAuthority": "PA Department of State",
+        "sourceType": "official-state",
+        "sourceId": "src-pa-reg-status",
+        "lastVerified": "2026-05-26"
+      },
+      {
+        "id": "res-track",
+        "label": "Track your ballot",
+        "description": "Track your mail-in or absentee ballot status from application through county receipt.",
+        "url": "https://www.pavoterservices.pa.gov/pages/ballottracking.aspx",
+        "governingAuthority": "PA Voter Services",
+        "sourceType": "official-state",
+        "sourceId": "src-pa-ballot-tracking",
+        "lastVerified": "2026-05-26"
+      },
+      {
+        "id": "res-county-contacts",
+        "label": "Contact your county election officials",
+        "description": "PA Department of State directory of county election office contact information.",
+        "url": "https://www.pa.gov/agencies/vote/contact-us/contact-your-election-officials",
+        "governingAuthority": "PA Department of State",
+        "sourceType": "official-state",
+        "sourceId": "src-pa-county-officials",
+        "lastVerified": "2026-05-26"
+      },
+      {
+        "id": "res-lehigh",
+        "label": "Lehigh County voter services",
+        "description": "Lehigh County voter registration, mail-in/absentee ballots, and polling-place information.",
+        "url": "https://www.lehighcounty.org/Departments/Voter-registration",
+        "governingAuthority": "Lehigh County",
+        "sourceType": "official-county",
+        "sourceId": "src-lehigh-vr",
+        "lastVerified": "2026-05-26"
+      },
+      {
+        "id": "res-northampton",
+        "label": "Northampton County elections",
+        "description": "Northampton County election and voting information, including mail-in/absentee ballots.",
+        "url": "https://www.norcopa.gov/election-voting",
+        "governingAuthority": "Northampton County",
+        "sourceType": "official-county",
+        "sourceId": "src-northampton-elections",
+        "lastVerified": "2026-05-26"
+      },
+      {
+        "id": "res-monroe",
+        "label": "Monroe County mail-in / absentee",
+        "description": "Monroe County mail-in and absentee ballot information for PA-07 voters in the Monroe portion.",
+        "url": "https://www.monroecountypa.gov/departments/elections/resources/votingmailin",
+        "governingAuthority": "Monroe County",
+        "sourceType": "official-county",
+        "sourceId": "src-monroe-mailin",
+        "lastVerified": "2026-05-26"
+      },
+      {
+        "id": "res-carbon",
+        "label": "Carbon County elections (via PA directory)",
+        "description": "Carbon County was re-checked on May 17, 2026; no direct county elections page was confirmed from the retrieved content. Voters are routed to the PA county-contact directory until a direct URL is added.",
+        "url": "https://www.pa.gov/agencies/vote/contact-us/contact-your-election-officials",
+        "governingAuthority": "Carbon County / PA Department of State",
+        "sourceType": "official-county",
+        "sourceId": "src-carbon-placeholder",
+        "lastVerified": "2026-05-26"
+      },
+      {
+        "id": "res-statutes",
+        "label": "Pennsylvania Election Code (Title 25)",
+        "description": "Statutory text for Pennsylvania elections — Title 25 of the Pennsylvania Consolidated Statutes.",
+        "url": "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/25/25.HTM",
+        "governingAuthority": "Pennsylvania General Assembly",
+        "sourceType": "statutory",
+        "sourceId": "src-pa-title25",
+        "lastVerified": "2026-05-26"
+      }
+    ],
+    "UPDATES": [
+      {
+        "id": "upd-001",
+        "title": "Primary mail-in / absentee request deadline confirmed",
+        "fieldChanged": "Primary mail-in / absentee ballot request deadline",
+        "oldValue": "Not yet confirmed",
+        "newValue": "May 12, 2026 at 5:00 PM",
+        "sourceIds": [
+          "src-pa-upcoming",
+          "src-pa-mail-absentee"
+        ],
+        "detectedAt": "2026-05-17T20:42:00Z",
+        "severity": "medium",
+        "reviewState": "new",
+        "visibility": "ready_for_public_review"
+      },
+      {
+        "id": "upd-002",
+        "title": "PA ballot receipt rule restated: postmarks not sufficient",
+        "fieldChanged": "Mail-in / absentee receipt rule",
+        "oldValue": "Generic statewide summary",
+        "newValue": "Ballots must be received by the county election office by 8:00 PM on election day; postmarks do not count.",
+        "sourceIds": [
+          "src-pa-mail-absentee"
+        ],
+        "detectedAt": "2026-05-17T19:20:00Z",
+        "severity": "low",
+        "reviewState": "new",
+        "visibility": "public"
+      },
+      {
+        "id": "upd-003",
+        "title": "Mail-ballot envelope-dating rule flagged as watch item",
+        "fieldChanged": "Outer-envelope dating rule",
+        "oldValue": "Treated as a routine procedural step",
+        "newValue": "Marked as a watch item; pending PA court guidance on undated/misdated envelopes",
+        "sourceIds": [
+          "src-spotlightpa-dating",
+          "src-pa-mail-absentee"
+        ],
+        "detectedAt": "2026-05-16T18:00:00Z",
+        "severity": "high",
+        "reviewState": "new",
+        "visibility": "needs_review"
+      },
+      {
+        "id": "upd-004",
+        "title": "Carbon County direct elections URL still missing",
+        "fieldChanged": "Carbon County resource link",
+        "oldValue": "—",
+        "newValue": "Routed to PA county-contact directory as a placeholder until verified",
+        "sourceIds": [
+          "src-pa-county-officials"
+        ],
+        "detectedAt": "2026-05-16T16:15:00Z",
+        "severity": "medium",
+        "reviewState": "new",
+        "visibility": "needs_review"
+      },
+      {
+        "id": "upd-005",
+        "title": "PA-07 news list refreshed with VoteBeat Pennsylvania prioritized",
+        "fieldChanged": "District news",
+        "oldValue": "4 news items, with older sample-style entries",
+        "newValue": "10 newest-to-oldest voting-procedure news items; current VoteBeat Pennsylvania primary story placed first",
+        "sourceIds": [
+          "src-votebeat-pa",
+          "src-lehigh-mailballot-update",
+          "src-whyy-pa-voter-guide",
+          "src-spotlightpa-voter-guide"
+        ],
+        "detectedAt": "2026-05-17T22:30:00Z",
+        "severity": "low",
+        "reviewState": "new",
+        "visibility": "public"
+      },
+      {
+        "id": "upd-006",
+        "title": "PA-07 primary results added — Brooks (D) and Mackenzie (R) confirmed as general election nominees",
+        "fieldChanged": "District primary 2026 results",
+        "oldValue": "Primary pending",
+        "newValue": "Bob Brooks (D) won Democratic primary May 19; Ryan Mackenzie (R) is Republican nominee. Both advance to Nov. 3, 2026 general election.",
+        "sourceIds": [
+          "src-ballotpedia-pa07"
+        ],
+        "detectedAt": "2026-05-26T01:27:00Z",
+        "severity": "medium",
+        "reviewState": "new",
+        "visibility": "public"
+      }
+    ],
+    "CONFLICTS": [
+      {
+        "id": "conf-001",
+        "factInQuestion": "Whether undated or misdated mail-ballot outer envelopes are counted",
+        "sourceAId": "src-spotlightpa-dating",
+        "sourceAClaim": "Spotlight PA explainer summarizes ongoing court cases that have changed whether undated or misdated outer envelopes are counted.",
+        "sourceBId": "src-pa-mail-absentee",
+        "sourceBClaim": "PA Department of State guidance instructs voters to date the outer envelope; does not provide a current single-rule resolution for litigation outcomes.",
+        "whyItMatters": "Determines whether a returned mail ballot in PA-07 is counted in close contests; affects voter guidance language.",
+        "suggestedReviewAction": "Defer to PA Department of State and PA courts for the controlling rule; treat news explainer as context only.",
+        "severity": "high",
+        "status": "unresolved",
+        "createdAt": "2026-01-08T12:04:00Z"
+      },
+      {
+        "id": "conf-002",
+        "factInQuestion": "Carbon County direct elections page",
+        "sourceAId": "src-carbon-placeholder",
+        "sourceAClaim": "No direct Carbon County elections page verified for Milestone 1; routed to PA county-contact directory.",
+        "sourceBId": "src-pa-county-officials",
+        "sourceBClaim": "PA Department of State directory lists county-level contact information for Carbon County, but is not a direct elections page.",
+        "whyItMatters": "Risk of sending Carbon County voters to a generic directory instead of a direct county elections page. Should be replaced with a verified URL in Milestone 2.",
+        "suggestedReviewAction": "Verify and add a direct Carbon County elections URL; mark the placeholder source resolved once added.",
+        "severity": "medium",
+        "status": "unresolved",
+        "createdAt": "2026-01-09T10:11:00Z"
+      }
+    ],
     "NEWS": [
       {
-        "headline": "Democratic registration drops in key midterm districts",
-        "sourceName": "Spotlight PA / NOTUS",
-        "url": "https://www.spotlightpa.org/news/2026/06/democratic-voter-registration-decline-swing-districts-federal-government/",
-        "publishedAt": "2026-06-09",
-        "relevanceSummary": "An NRCC analysis covering 28 battleground districts \u2014 including Pennsylvania's 7th \u2014 found Democrats have lost registered voters since November 2024 in all four Pennsylvania battleground seats, though the story notes Democrats have recently shown net voter gains in Pennsylvania overall. The data reveals PA-07 is among the specific districts tracked, complicating the general-election environment for Democratic nominee Bob Brooks.",
-        "tag": "administration",
-        "id": "news-2026-0610-pa-07-01",
-        "reviewState": "new"
-      },
-      {
-        "headline": "Trump admin has weakened federal election oversight ahead of midterms",
-        "sourceName": "Spotlight PA / NOTUS",
-        "url": "https://www.spotlightpa.org/news/2026/06/midterms-command-center-public-integrity-section-trump-federal-government/",
-        "publishedAt": "2026-06-08",
-        "relevanceSummary": "The Justice Department has canceled election-integrity training sessions, deleted its 281-page guide to prosecuting election offenses, and disbanded its Election Day command center \u2014 a posture that directly affects how voter-intimidation and disinformation complaints in Pennsylvania's swing districts, including PA-07's Lehigh Valley counties, would be handled in November. Former PA-07 primary candidate Ryan Crosswell, a former federal prosecutor, is quoted criticizing the changes.",
-        "tag": "administration",
-        "id": "news-2026-0610-pa-07-02",
-        "reviewState": "new"
-      },
-      {
-        "headline": "Study: Ballot curing helps more mail ballots get counted",
-        "sourceName": "Votebeat / Spotlight PA",
-        "url": "https://www.spotlightpa.org/news/2026/06/mail-ballot-notice-cure-study-university-pennsylvania-study-2024-election-elections/",
-        "publishedAt": "2026-06-03",
-        "relevanceSummary": "A University of Pennsylvania study of the 2024 election found voters are 25 percentage points more likely to have their vote counted when notified of a disqualifying mail-ballot error before Election Day \u2014 directly relevant to PA-07 after Lehigh County sent thousands of voters incorrect ballots in the May 19 primary. The study notes roughly 20% of 2026 primary mail-ballot requestors did not provide an email address, leaving them at risk in counties that rely on email for error notification.",
-        "tag": "rule-change",
-        "id": "news-2026-0610-pa-07-03",
-        "reviewState": "new"
-      },
-      {
-        "headline": "Judge declines to stop Trump mail voting exec order",
-        "sourceName": "Spotlight PA",
-        "url": "https://www.spotlightpa.org/news/2026/05/mail-voting-trump-executive-order-elections/",
-        "publishedAt": "2026-05-28",
-        "relevanceSummary": "A federal judge refused to block Trump's executive order creating a federal voter list and restricting USPS mail-ballot delivery, leaving in place a rule that election officials warn could cause November-election chaos in densely populated swing districts like PA-07. No implementation changes are expected before the November 3 general election, but a second lawsuit in Boston remains pending.",
+        "id": "news-000c",
+        "headline": "SCOTUS responses due June 1 in PA mail-ballot dating case — ruling could affect November",
+        "sourceName": "VoteBeat Pennsylvania",
+        "url": "https://www.votebeat.org/pennsylvania/2026/05/15/2026-primarymail-ballot-envelope-dating-explainer/",
+        "publishedAt": "2026-05-15",
+        "relevanceSummary": "Responses in Commonwealth v. Eakin (No. 25-967) were due at SCOTUS on June 1, 2026. If the Court takes the case and reverses the 3rd Circuit, counties may again be allowed to reject undated mail ballots — directly affecting PA-07 general election mail voters.",
         "tag": "litigation",
-        "id": "news-2026-0610-pa-07-04",
         "reviewState": "new"
       },
       {
-        "headline": "Bob Brooks rides blue-collar bona fides to victory in PA",
-        "sourceName": "Spotlight PA",
-        "url": "https://www.spotlightpa.org/news/2026/05/primary-election-results-bob-brooks-ryan-mackenzie-federal-government/",
+        "id": "news-000a",
+        "headline": "Bob Brooks wins Democratic nomination in hotly contested PA-07 primary",
+        "sourceName": "City & State Pennsylvania",
+        "url": "https://www.cityandstatepa.com/politics/2026/05/bob-brooks-wins-lehigh-valleys-hotly-contested-pa-7-primary/413658/",
         "publishedAt": "2026-05-20",
-        "relevanceSummary": "Retired Bethlehem firefighter and Pennsylvania Professional Fire Fighters Association president Bob Brooks won the Democratic primary for PA-07 by roughly 15 points, setting up the November 3 general-election matchup against incumbent Republican Rep. Ryan Mackenzie in one of the nation's top House toss-up races. Brooks is a DCCC Red to Blue designee; Mackenzie won the seat in 2024 by just ~4,000 votes over then-Rep. Susan Wild.",
-        "tag": "primary",
-        "id": "news-2026-0610-pa-07-05",
+        "relevanceSummary": "Bob Brooks (D), president of the PA Fire Fighters Association and Gov. Shapiro's preferred candidate, won the May 19 Democratic primary for PA-07 with 41.4% of the vote. Ryan Mackenzie (R) advances as the Republican nominee. Brooks vs. Mackenzie is the November 3 general election matchup.",
+        "tag": "results",
         "reviewState": "new"
       },
       {
-        "headline": "Pennsylvania DOJ Voter Data Access Challenge \u2014 DOJ files motion to dismiss or for summary judgment",
-        "sourceName": "Democracy Docket",
-        "url": "https://www.democracydocket.com/cases/pennsylvania-doj-voter-data-access-challenge/",
-        "publishedAt": "2026-06-02",
-        "relevanceSummary": "On June 2, the DOJ filed a motion to dismiss or for summary judgment in its lawsuit seeking to compel Pennsylvania to hand over unredacted voter registration data \u2014 including birth dates and other sensitive information \u2014 from its statewide SURE system. PA Secretary Al Schmidt has refused, citing privacy protections; PA-07's Lehigh, Northampton, and Carbon county voters are among those whose personal data is at issue in the case.",
+        "id": "news-000b",
+        "headline": "PA's 2026 primary election goes well despite a few isolated incidents",
+        "sourceName": "Spotlight PA",
+        "url": "https://www.spotlightpa.org/news/2026/05/2026-primary-election-went-smoothly-explosion-ballots-heat-elections/",
+        "publishedAt": "2026-05-20",
+        "relevanceSummary": "Statewide primary ran without major machine malfunctions or printing errors. Isolated incidents in York and Chester counties affected a few hundred voters but did not disrupt statewide results. Turnout was low — under 20% of registered voters.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-001",
+        "headline": "Uncertainty for PA counties after court rules on releasing vote data",
+        "sourceName": "Spotlight PA",
+        "url": "https://www.spotlightpa.org/news/2026/05/supreme-court-pennsylvania-cast-vote-record-lycoming-county-decision-elections/",
+        "publishedAt": "2026-05-11",
+        "relevanceSummary": "PA Supreme Court unanimously ruled CVRs are public records (April 2026, Heather Honey v. Lycoming County). But how many PA counties can actually release them depends on tabulation technology — only 8 counties use Clear Ballot systems with ballot randomization. Lehigh and Northampton (PA-07 counties) may face different timelines.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-002",
+        "headline": "Here's how Pennsylvania's primary has been going so far",
+        "sourceName": "VoteBeat Pennsylvania",
+        "url": "https://www.votebeat.org/pennsylvania/2026/05/15/2026-primarymail-ballot-envelope-dating-explainer/",
+        "publishedAt": "2026-05-15",
+        "relevanceSummary": "VoteBeat's primary update covers Pennsylvania mail-ballot issues, election process changes, and technology/testing items relevant to PA-07 voter guidance.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-003",
+        "headline": "May 15 update on Lehigh County mail balloting ahead of the 5/19 primary",
+        "sourceName": "Lehigh County",
+        "url": "https://www.lehighcounty.org/Portals/0/PDF/Voter/UPDATE_5-15.pdf",
+        "publishedAt": "2026-05-15",
+        "relevanceSummary": "Official county update says a clerical error affected some initial mail ballots and explains the affected voter categories and county remedies.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-004",
+        "headline": "Pennsylvania 2026 primary voter guide explains deadlines and voting rules",
+        "sourceName": "WHYY",
+        "url": "https://whyy.org/articles/pennsylvania-election-2026-primary-voter-guide-deadlines/",
+        "publishedAt": "2026-05-14",
+        "relevanceSummary": "Voter guide covers primary deadlines, registration status checks, mail-ballot tracking, and polling-place guidance useful to PA-07 voters.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-005",
+        "headline": "Last-minute guide to voting in the 2026 Pennsylvania primary election",
+        "sourceName": "Spotlight PA",
+        "url": "https://www.spotlightpa.org/news/2026/05/pennsylvania-primary-election-day-2026-last-minute-voting-guide-elections/",
+        "publishedAt": "2026-05-07",
+        "relevanceSummary": "Explains practical voting rules for the May 19 primary, including mail-ballot deadlines, ID for first-time voters, and how voters can check county resources.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-006",
+        "headline": "PA Department of State reminds voters of the one-week mail ballot application deadline",
+        "sourceName": "PA.gov",
+        "url": "https://www.pa.gov/agencies/dos/newsroom/one-week-mail-ballot-deadline-2026-primary",
+        "publishedAt": "2026-05-05",
+        "relevanceSummary": "Official state reminder highlights the May 12 mail-ballot application deadline, the May 19 8:00 PM receipt deadline, and the rule that postmarks do not count.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-007",
+        "headline": "Pennsylvania secretary of the commonwealth answers election questions at House budget hearing",
+        "sourceName": "VoteBeat Pennsylvania",
+        "url": "https://www.votebeat.org/pennsylvania/2026/03/05/al-schmidt-department-of-state-house-budget-hearing-2026-sure-upgrade-special-elections-ai/",
+        "publishedAt": "2026-03-05",
+        "relevanceSummary": "Coverage of state election administration issues, including the SURE system, special elections, and AI-related election concerns.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-008",
+        "headline": "Pennsylvania to test out internet-connected e-pollbooks this spring",
+        "sourceName": "VoteBeat Pennsylvania",
+        "url": "https://www.votebeat.org/pennsylvania/2026/02/12/electronic-pollbook-internet-connectivity-pilot-program-2026-primary/",
+        "publishedAt": "2026-02-12",
+        "relevanceSummary": "Explains the state pilot for internet-connected electronic pollbooks, a voting-technology change that could affect election-day administration in PA-07.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-009",
+        "headline": "Fight over Pennsylvania's mail-ballot date requirement approaches the endgame",
+        "sourceName": "VoteBeat Pennsylvania",
+        "url": "https://www.votebeat.org/pennsylvania/2025/09/22/court-ruling-act-77-mail-ballot-date-requirement/",
+        "publishedAt": "2025-09-22",
+        "relevanceSummary": "Explains the long-running legal fight over whether the handwritten date on mail-ballot envelopes can be enforced — still a watch item ahead of November 3.",
         "tag": "litigation",
-        "id": "news-2026-0610-pa-07-06",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-010",
+        "headline": "Enforcing date requirement for Pennsylvania mail ballots is ruled unconstitutional",
+        "sourceName": "VoteBeat Pennsylvania",
+        "url": "https://www.votebeat.org/pennsylvania/2025/08/26/mail-ballot-dating-requirement-ruled-unconstitutional-federal-appeals-court/",
+        "publishedAt": "2025-08-26",
+        "relevanceSummary": "Reports the 3rd Circuit ruling in the mail-ballot envelope-dating litigation, which remains a watch item (SCOTUS petition Commonwealth v. Eakin, responses due June 1, 2026).",
+        "tag": "litigation",
         "reviewState": "new"
       }
     ],
-    "SOURCES": [],
-    "ELECTION_EVENTS": [],
-    "RULES": [],
-    "RESOURCES": [],
     "LAST_REFRESH": {
-      "id": "run-2026-06-10T22-00-00-pa-07",
-      "startedAt": "2026-06-10T21:59:30.000Z",
-      "completedAt": "2026-06-10T22:00:00Z",
+      "id": "run-2026-05-26-pa07-refresh-3",
+      "startedAt": "2026-06-02T21:00:00Z",
+      "completedAt": "2026-06-02T21:45:00Z",
       "triggerType": "manual",
       "sourcesChecked": 14,
-      "updatesCreated": 0,
+      "updatesCreated": 2,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "PA-07 weekly refresh on 2026-06-10. Status: Pennsylvania primary (held), general election Nov 3 (146 days out). Incumbent: Rep. Ryan Mackenzie (R); opponent: Democrat Bob Brooks (primary winner May 19). Six new news items added covering the past week (Jun 3-10). PA-07 general election matchup set: Bob Brooks (D) vs. Ryan Mackenzie (R). This week's stories center on a Spotlight PA / NOTUS analysis of Democratic registration drops in key midterm districts, Trump administration weakening of federal election oversight, and a Votebeat study showing ballot curing meaningfully boosts mail-ballot counts in PA. Procedural rules and election-event dates unchanged from the bundle baseline; all news items routed to the human-review queue for editor confirmation."
+      "summary": "May 26 refresh: added Spotlight PA CVR/cast-vote-records ruling explainer (May 11) as news-001 — relevant because PA-07 counties Lehigh and Northampton will face RTKL requests. Brooks (D) vs. Mackenzie (R) confirmed as the Nov. 3 general matchup. SCOTUS mail-ballot dating petition (Commonwealth v. Eakin) responses due June 1 — still the key watch item. All lastVerified dates bumped to 2026-05-26. General election deadlines unchanged: Oct 19 reg, Oct 27 mail request, Nov 3 election day."
     },
-    "NEXT_REFRESH_AT": "2026-06-12T22:00:00Z",
+    "NEXT_REFRESH_AT": "2026-06-01T21:00:00Z",
     "WEEKLY_REPORT": {
-      "id": "wr-2026-w24-pa-07",
-      "periodStart": "2026-06-08",
-      "periodEnd": "2026-06-14",
+      "id": "wr-2026-w22",
+      "periodStart": "2026-05-19",
+      "periodEnd": "2026-05-26",
       "sourcesChecked": 14,
-      "newUpdates": 0,
+      "newUpdates": 2,
       "conflictsCreated": 0,
       "conflictsResolved": 0,
       "deadlinesChanged": 0,
       "rulesChanged": 0,
-      "newsItems": 6,
-      "needsReview": 6,
+      "newsItems": 10,
+      "needsReview": 2,
       "sourceErrors": 0,
-      "summary": "PA-07 general election matchup set: Bob Brooks (D) vs. Ryan Mackenzie (R). This week's stories center on a Spotlight PA / NOTUS analysis of Democratic registration drops in key midterm districts, Trump administration weakening of federal election oversight, and a Votebeat study showing ballot curing meaningfully boosts mail-ballot counts in PA.",
-      "generatedAt": "2026-06-10T22:00:00Z"
-    },
-    "districtNumber": "PA-07"
-  },
-  "districtCode": "PA-07"
+      "summary": "Week of May 19–26, 2026: Bob Brooks (D) won the PA-07 Democratic primary; Ryan Mackenzie (R) is the Republican nominee for Nov. 3. Spotlight PA CVR ruling explainer added (PA Supreme Court ruled cast vote records are public records; implementation uncertain by county). SCOTUS mail-ballot dating watch remains active — responses due June 1. No procedure changes detected. General election deadlines confirmed.",
+      "generatedAt": "2026-06-02T21:45:00Z"
+    }
+  }
 }
