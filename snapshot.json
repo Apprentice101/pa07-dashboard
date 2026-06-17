@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-06-02",
-  "updatedAt": "2026-06-02T21:45:00Z",
-  "exportedAt": "2026-06-15T19:44:12.828Z",
+  "dataAsOf": "2026-06-17",
+  "updatedAt": "2026-06-17T22:35:00Z",
+  "exportedAt": "2026-06-17T22:42:35.450Z",
   "districtCode": "PA-07",
   "data": {
     "DISTRICT": {
@@ -781,6 +781,36 @@
         "severity": "medium",
         "reviewState": "new",
         "visibility": "public"
+      },
+      {
+        "id": "upd-007",
+        "title": "General-election deadlines re-verified against PA Department of State; no changes detected",
+        "fieldChanged": "General election 2026 deadlines",
+        "oldValue": "Deadlines confirmed as of 2026-05-26 refresh.",
+        "newValue": "As of the June 17, 2026 refresh, PA Department of State guidance still lists October 19, 2026 as the voter registration deadline, October 27, 2026 as the mail-in/absentee application deadline, and November 3, 2026 as Election Day with mail ballots due by 8:00 PM. Postmarks do not count. Envelope-dating signature requirement still in effect per PA DoS mail-ballot guidance.",
+        "sourceIds": [
+          "src-pa-upcoming",
+          "src-pa-mail-absentee"
+        ],
+        "detectedAt": "2026-06-17T22:30:00Z",
+        "severity": "low",
+        "reviewState": "new",
+        "visibility": "public"
+      },
+      {
+        "id": "upd-008",
+        "title": "SCOTUS denied RNC emergency request on PA provisional-ballot backstop (June 6, 2026)",
+        "fieldChanged": "Provisional ballot rule (Coalfield Justice backstop)",
+        "oldValue": "Provisional-ballot backstop under PA Supreme Court ruling in Center for Coalfield Justice v. Washington County Board of Elections still operative; awaiting any federal challenge.",
+        "newValue": "On June 6, 2026, the U.S. Supreme Court denied the RNC's emergency request to block PA from counting provisional ballots cast by voters whose mail-in ballots were invalid due to envelope errors. Denial was procedural — the case (limited to two voters in one county) was not a proper vehicle for statewide relief. Justices Alito, Thomas, and Gorsuch wrote separately leaving the underlying constitutional question open. The Coalfield Justice provisional-ballot backstop remains operative for November 3, 2026.",
+        "sourceIds": [
+          "src-spotlightpa-dating",
+          "src-votebeat-pa"
+        ],
+        "detectedAt": "2026-06-17T22:35:00Z",
+        "severity": "medium",
+        "reviewState": "new",
+        "visibility": "public"
       }
     ],
     "CONFLICTS": [
@@ -941,35 +971,55 @@
         "relevanceSummary": "Reports the 3rd Circuit ruling in the mail-ballot envelope-dating litigation, which remains a watch item (SCOTUS petition Commonwealth v. Eakin, responses due June 1, 2026).",
         "tag": "litigation",
         "reviewState": "new"
+      },
+      {
+        "id": "news-011",
+        "headline": "PA primary results: Brooks (D) wins 4-way primary to face Mackenzie (R) in PA-07 toss-up",
+        "sourceName": "Spotlight PA",
+        "url": "https://www.spotlightpa.org/news/2026/05/primary-election-results-us-house-pennsylvaia-contested-races-elections/",
+        "publishedAt": "2026-05-19",
+        "relevanceSummary": "Statewide primary recap confirming Bob Brooks won the four-way Democratic primary against Crosswell, McClure, and Obando-Derstine; will face incumbent Ryan Mackenzie (R) on Nov. 3. Sabato's Crystal Ball rates the race a toss-up.",
+        "tag": "results",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-012",
+        "headline": "SCOTUS denies RNC emergency request to block PA provisional-ballot backstop",
+        "sourceName": "Voting Rights Lab",
+        "url": "https://votingrightslab.org/report/https-votingrightslab-org-report-whats-at-stake-for-elections-at-the-supreme-court/",
+        "publishedAt": "2026-06-06",
+        "relevanceSummary": "On June 6, 2026, SCOTUS denied the RNC's emergency request to stop PA from counting provisional ballots from voters whose mail-in ballots had envelope errors. Denial was procedural (case was limited to two voters in one county). Alito/Thomas/Gorsuch wrote separately leaving the constitutional question open.",
+        "tag": "litigation",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-05-26-pa07-refresh-3",
-      "startedAt": "2026-06-02T21:00:00Z",
-      "completedAt": "2026-06-02T21:45:00Z",
+      "id": "run-2026-06-17-pa07-refresh-4",
+      "startedAt": "2026-06-17T22:00:00Z",
+      "completedAt": "2026-06-17T22:35:00Z",
       "triggerType": "manual",
       "sourcesChecked": 14,
       "updatesCreated": 2,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "May 26 refresh: added Spotlight PA CVR/cast-vote-records ruling explainer (May 11) as news-001 — relevant because PA-07 counties Lehigh and Northampton will face RTKL requests. Brooks (D) vs. Mackenzie (R) confirmed as the Nov. 3 general matchup. SCOTUS mail-ballot dating petition (Commonwealth v. Eakin) responses due June 1 — still the key watch item. All lastVerified dates bumped to 2026-05-26. General election deadlines unchanged: Oct 19 reg, Oct 27 mail request, Nov 3 election day."
+      "summary": "June 17, 2026 bi-weekly refresh for PA-07. Re-verified PA Department of State upcoming-elections and mail-in/absentee guidance directly: general-election deadlines unchanged (Oct. 19 registration, Oct. 27 mail-application, Nov. 3 Election Day and 8:00 PM mail-ballot receipt; postmarks do not count; envelope-dating signature requirement still in effect). Brooks (D) vs. Mackenzie (R) remains the Nov. 3 matchup. New: documented June 6, 2026 SCOTUS denial of RNC emergency request on PA provisional-ballot backstop (Coalfield Justice rule survives). Commonwealth v. Eakin (envelope-dating) still pending at SCOTUS. Watson v. RNC (Mississippi/Alaska late ballots) decision expected end of June; PA receipt-by-8pm rule unaffected directly. All lastVerified dates bumped to 2026-06-17. No confidence flips."
     },
-    "NEXT_REFRESH_AT": "2026-06-01T21:00:00Z",
+    "NEXT_REFRESH_AT": "2026-07-01T22:00:00Z",
     "WEEKLY_REPORT": {
-      "id": "wr-2026-w22",
-      "periodStart": "2026-05-19",
-      "periodEnd": "2026-05-26",
+      "id": "wr-pa07-2026-w25",
+      "periodStart": "2026-06-03",
+      "periodEnd": "2026-06-17",
       "sourcesChecked": 14,
       "newUpdates": 2,
       "conflictsCreated": 0,
       "conflictsResolved": 0,
       "deadlinesChanged": 0,
       "rulesChanged": 0,
-      "newsItems": 10,
+      "newsItems": 2,
       "needsReview": 2,
       "sourceErrors": 0,
-      "summary": "Week of May 19–26, 2026: Bob Brooks (D) won the PA-07 Democratic primary; Ryan Mackenzie (R) is the Republican nominee for Nov. 3. Spotlight PA CVR ruling explainer added (PA Supreme Court ruled cast vote records are public records; implementation uncertain by county). SCOTUS mail-ballot dating watch remains active — responses due June 1. No procedure changes detected. General election deadlines confirmed.",
-      "generatedAt": "2026-06-02T21:45:00Z"
+      "summary": "Bi-weekly period June 3–17, 2026: General-election deadlines re-verified directly against PA DoS — unchanged. Brooks (D) vs. Mackenzie (R) confirmed for Nov. 3. New litigation watch: SCOTUS denied RNC emergency request (June 6) on PA provisional-ballot backstop — Coalfield Justice rule survives. Commonwealth v. Eakin (envelope-dating) still pending. No procedure changes detected; no confidence flips.",
+      "generatedAt": "2026-06-17T22:35:00Z"
     }
   }
 }
