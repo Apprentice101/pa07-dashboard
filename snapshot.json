@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-01",
-  "updatedAt": "2026-07-01T19:56:35.216Z",
-  "exportedAt": "2026-07-03T00:04:04.201Z",
+  "dataAsOf": "2026-07-03",
+  "updatedAt": "2026-07-03T00:31:51.697Z",
+  "exportedAt": "2026-07-03T00:37:47.797Z",
   "districtCode": "PA-07",
   "data": {
     "DISTRICT": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-07-01",
+        "lastVerified": "2026-07-03",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-07-01",
+        "lastVerified": "2026-07-03",
         "confidence": "high"
       },
       "src-pa-ballot-tracking": {
@@ -104,7 +104,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-07-01",
+        "lastVerified": "2026-07-03",
         "confidence": "high"
       },
       "src-pa-register": {
@@ -116,7 +116,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-07-01",
+        "lastVerified": "2026-07-03",
         "confidence": "high"
       },
       "src-pa-reg-status": {
@@ -140,7 +140,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-07-01",
+        "lastVerified": "2026-07-03",
         "confidence": "high"
       },
       "src-pa-title25": {
@@ -226,7 +226,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 7,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-07-01",
+        "lastVerified": "2026-07-03",
         "confidence": "medium",
         "notes": "Used as district-context/secondary source for PA-07 boundary and previous results. Cross-check against an official map source before public reliance."
       },
@@ -994,17 +994,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-01-pa07-auto",
-      "startedAt": "2026-07-01T19:56:15.870Z",
-      "completedAt": "2026-07-01T19:56:35.216Z",
+      "id": "run-2026-07-03-pa07-auto",
+      "startedAt": "2026-07-03T00:31:32.103Z",
+      "completedAt": "2026-07-03T00:31:51.697Z",
       "triggerType": "scheduled",
       "sourcesChecked": 11,
       "updatesCreated": 0,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-01 for PA-07. Sources checked: 11. LLM verifications: 6. 6 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-03 for PA-07. Sources checked: 11. LLM verifications: 7. 6 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-08T19:56:35.216Z",
+    "NEXT_REFRESH_AT": "2026-07-10T00:31:51.697Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa07-2026-w25",
       "periodStart": "2026-06-03",
