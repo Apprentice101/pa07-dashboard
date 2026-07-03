@@ -1,8 +1,8 @@
 {
   "version": "1",
   "dataAsOf": "2026-07-03",
-  "updatedAt": "2026-07-03T00:31:51.697Z",
-  "exportedAt": "2026-07-03T00:37:47.797Z",
+  "updatedAt": "2026-07-03T01:36:06.174Z",
+  "exportedAt": "2026-07-03T01:43:17.781Z",
   "districtCode": "PA-07",
   "data": {
     "DISTRICT": {
@@ -991,20 +991,70 @@
         "relevanceSummary": "On June 6, 2026, SCOTUS denied the RNC's emergency request to stop PA from counting provisional ballots from voters whose mail-in ballots had envelope errors. Denial was procedural (case was limited to two voters in one county). Alito/Thomas/Gorsuch wrote separately leaving the constitutional question open.",
         "tag": "litigation",
         "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0b3g9h4",
+        "headline": "Judge blocks USPS proposed restrictions on mail-in voting",
+        "sourceName": "The Daily Record",
+        "url": "https://thedailyrecord.com/2026/07/02/judge-blocks-usps-restrictions-mail-in-voting-washington/",
+        "publishedAt": "2026-07-02",
+        "relevanceSummary": "A federal judge blocked proposed USPS restrictions that would have affected how mail ballots are delivered and handled nationwide. Because the article says the proposal would have required states to adopt new ballot procedures before deliveries, it matters to PA-07 voters who use mail ballots.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0z7cdul",
+        "headline": "Voter roll purges banned 90 days before federal elections",
+        "sourceName": "NPR",
+        "url": "https://www.npr.org/2026/07/01/nx-s1-5859333/voter-roll-purge-supreme-court",
+        "publishedAt": "2026-07-01",
+        "relevanceSummary": "This explains a federal quiet-period rule that limits systematic voter-roll removals in the 90 days before federal elections. It is relevant to Pennsylvania voters because the article says the National Voter Registration Act applies to Pennsylvania and other covered states, and the Supreme Court is set to review a case that could narrow that protection.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0psuqv2",
+        "headline": "Voting Rights Groups Secure Legal Win for Pennsylvania Voter Privacy",
+        "sourceName": "League of Women Voters",
+        "url": "https://www.lwv.org/newsroom/press-releases/voting-rights-groups-secure-legal-win-pennsylvania-voter-privacy",
+        "publishedAt": "2026-06-30",
+        "relevanceSummary": "The League says a federal judge dismissed a U.S. Department of Justice effort to obtain Pennsylvania voter data, preserving voter privacy protections. That matters to PA-07 voters because it concerns election administration in Pennsylvania and the handling of voter-registration records.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0cdya3k",
+        "headline": "Supreme Court asks Trump administration views on Pennsylvania mail-in ballot date requirement",
+        "sourceName": "Reuters",
+        "url": "https://www.reuters.com/legal/government/supreme-court-asks-trump-administration-views-pennsylvania-mail-in-ballot-2026-06-29/",
+        "publishedAt": "2026-06-29",
+        "relevanceSummary": "This concerns Pennsylvania’s mail-in ballot envelope-date rule, which directly affects whether ballots are counted in the state. Reuters says the Supreme Court asked for the administration’s views on a Republican bid to enforce the handwritten date requirement, a procedural issue PA-07 mail voters should watch.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0d8nqqd",
+        "headline": "Trump Justice Department can't have Pennsylvania voters' private information, judge says",
+        "sourceName": "Votebeat Pennsylvania",
+        "url": "https://www.votebeat.org/pennsylvania/2026/06/28/department-of-justice-voter-roll-lawsuit-dismissed/",
+        "publishedAt": "2026-06-28",
+        "relevanceSummary": "Votebeat reports that a federal judge dismissed a DOJ lawsuit seeking Pennsylvania voters’ private information, a direct election-administration issue. PA-07 voters have an interest because the ruling affects how state voter-roll data is protected and managed.",
+        "tag": "litigation",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
       "id": "run-2026-07-03-pa07-auto",
-      "startedAt": "2026-07-03T00:31:32.103Z",
-      "completedAt": "2026-07-03T00:31:51.697Z",
+      "startedAt": "2026-07-03T01:35:43.538Z",
+      "completedAt": "2026-07-03T01:36:06.174Z",
       "triggerType": "scheduled",
       "sourcesChecked": 11,
-      "updatesCreated": 0,
+      "updatesCreated": 5,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-03 for PA-07. Sources checked: 11. LLM verifications: 7. 6 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-03 for PA-07. Sources checked: 11. LLM verifications: 6. No changes detected; all sources verified unchanged."
     },
-    "NEXT_REFRESH_AT": "2026-07-10T00:31:51.697Z",
+    "NEXT_REFRESH_AT": "2026-07-10T01:36:06.174Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa07-2026-w25",
       "periodStart": "2026-06-03",
