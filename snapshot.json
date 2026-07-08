@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-03",
-  "updatedAt": "2026-07-03T01:36:06.174Z",
-  "exportedAt": "2026-07-04T00:40:26.729Z",
+  "dataAsOf": "2026-07-08",
+  "updatedAt": "2026-07-08T06:26:04.008Z",
+  "exportedAt": "2026-07-08T06:29:12.763Z",
   "districtCode": "PA-07",
   "data": {
     "DISTRICT": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-07-03",
+        "lastVerified": "2026-07-08",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-07-03",
+        "lastVerified": "2026-07-08",
         "confidence": "high"
       },
       "src-pa-ballot-tracking": {
@@ -226,7 +226,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 7,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-07-03",
+        "lastVerified": "2026-07-08",
         "confidence": "medium",
         "notes": "Used as district-context/secondary source for PA-07 boundary and previous results. Cross-check against an official map source before public reliance."
       },
@@ -1044,17 +1044,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-03-pa07-auto",
-      "startedAt": "2026-07-03T01:35:43.538Z",
-      "completedAt": "2026-07-03T01:36:06.174Z",
+      "id": "run-2026-07-08-pa07-auto",
+      "startedAt": "2026-07-08T06:25:55.464Z",
+      "completedAt": "2026-07-08T06:26:04.008Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 11,
-      "updatesCreated": 5,
+      "sourcesChecked": 15,
+      "updatesCreated": 0,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-03 for PA-07. Sources checked: 11. LLM verifications: 6. No changes detected; all sources verified unchanged."
+      "summary": "Automated refresh completed 2026-07-08 for PA-07. Sources checked: 15. LLM verifications: 10. 3 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-10T01:36:06.174Z",
+    "NEXT_REFRESH_AT": "2026-07-15T06:26:04.008Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa07-2026-w25",
       "periodStart": "2026-06-03",
