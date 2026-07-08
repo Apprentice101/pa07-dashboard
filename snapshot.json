@@ -1,8 +1,8 @@
 {
   "version": "1",
   "dataAsOf": "2026-07-08",
-  "updatedAt": "2026-07-08T06:26:04.008Z",
-  "exportedAt": "2026-07-08T06:29:12.763Z",
+  "updatedAt": "2026-07-08T19:38:54.391Z",
+  "exportedAt": "2026-07-08T19:44:04.323Z",
   "districtCode": "PA-07",
   "data": {
     "DISTRICT": {
@@ -189,7 +189,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-05-26",
+        "lastVerified": "2026-07-08",
         "confidence": "high"
       },
       "src-monroe-mailin": {
@@ -1045,16 +1045,16 @@
     ],
     "LAST_REFRESH": {
       "id": "run-2026-07-08-pa07-auto",
-      "startedAt": "2026-07-08T06:25:55.464Z",
-      "completedAt": "2026-07-08T06:26:04.008Z",
+      "startedAt": "2026-07-08T19:38:51.196Z",
+      "completedAt": "2026-07-08T19:38:54.391Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 15,
+      "sourcesChecked": 14,
       "updatesCreated": 0,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-08 for PA-07. Sources checked: 15. LLM verifications: 10. 3 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-08 for PA-07. Sources checked: 14. LLM verifications: 8. 1 lastVerified bump on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-15T06:26:04.008Z",
+    "NEXT_REFRESH_AT": "2026-07-15T19:38:54.391Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa07-2026-w25",
       "periodStart": "2026-06-03",
