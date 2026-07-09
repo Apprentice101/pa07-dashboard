@@ -2,7 +2,7 @@
   "version": "1",
   "dataAsOf": "2026-07-08",
   "updatedAt": "2026-07-08T19:38:54.391Z",
-  "exportedAt": "2026-07-08T20:36:02.654Z",
+  "exportedAt": "2026-07-09T17:04:51.707Z",
   "districtCode": "PA-07",
   "data": {
     "DISTRICT": {
@@ -609,17 +609,37 @@
         "governingAuthority": "PA Department of State",
         "sourceType": "official-state",
         "sourceId": "src-pa-register",
-        "lastVerified": "2026-05-26"
+        "lastVerified": "2026-07-08"
       },
       {
-        "id": "res-status",
+        "id": "res-locations",
+        "label": "Find voting locations",
+        "description": "Confirm your Pennsylvania voter registration, party affiliation, and polling place.",
+        "url": "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx",
+        "governingAuthority": "PA Department of State",
+        "sourceType": "official-state",
+        "sourceId": "src-pa-reg-status",
+        "lastVerified": "2026-07-08"
+      },
+      {
+        "id": "res-ballot-box",
+        "label": "Find ballot boxes",
+        "description": "Official statewide tool to find ballot drop boxes and mail-in ballot return locations by county.",
+        "url": "https://www.pa.gov/agencies/vote/voter-support/mail-in-and-absentee-ballot/return-ballot",
+        "governingAuthority": "Pennsylvania Department of State",
+        "sourceType": "official-state",
+        "sourceId": "src-pa-dos",
+        "lastVerified": "2026-07-08"
+      },
+      {
+        "id": "res-check-reg",
         "label": "Check registration status",
         "description": "Confirm your Pennsylvania voter registration, party affiliation, and polling place.",
         "url": "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx",
         "governingAuthority": "PA Department of State",
         "sourceType": "official-state",
         "sourceId": "src-pa-reg-status",
-        "lastVerified": "2026-05-26"
+        "lastVerified": "2026-07-08"
       },
       {
         "id": "res-track",
@@ -629,7 +649,17 @@
         "governingAuthority": "PA Voter Services",
         "sourceType": "official-state",
         "sourceId": "src-pa-ballot-tracking",
-        "lastVerified": "2026-05-26"
+        "lastVerified": "2026-07-08"
+      },
+      {
+        "id": "res-results",
+        "label": "Election results",
+        "description": "Official Pennsylvania election returns.",
+        "url": "https://www.electionreturns.pa.gov/",
+        "governingAuthority": "PA Department of State",
+        "sourceType": "official-state",
+        "sourceId": "src-pa-dos",
+        "lastVerified": "2026-07-08"
       },
       {
         "id": "res-county-contacts",
@@ -639,16 +669,6 @@
         "governingAuthority": "PA Department of State",
         "sourceType": "official-state",
         "sourceId": "src-pa-county-officials",
-        "lastVerified": "2026-05-26"
-      },
-      {
-        "id": "res-lehigh",
-        "label": "Lehigh County voter services",
-        "description": "Lehigh County voter registration, mail-in/absentee ballots, and polling-place information.",
-        "url": "https://www.lehighcounty.org/Departments/Voter-registration",
-        "governingAuthority": "Lehigh County",
-        "sourceType": "official-county",
-        "sourceId": "src-lehigh-vr",
         "lastVerified": "2026-05-26"
       },
       {
