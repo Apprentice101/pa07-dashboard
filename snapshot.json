@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-08",
-  "updatedAt": "2026-07-08T19:38:54.391Z",
-  "exportedAt": "2026-07-09T17:04:51.707Z",
+  "dataAsOf": "2026-07-15",
+  "updatedAt": "2026-07-15T06:32:49.960Z",
+  "exportedAt": "2026-07-15T06:41:34.468Z",
   "districtCode": "PA-07",
   "data": {
     "DISTRICT": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-07-08",
+        "lastVerified": "2026-07-15",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-07-08",
+        "lastVerified": "2026-07-15",
         "confidence": "high"
       },
       "src-pa-ballot-tracking": {
@@ -104,7 +104,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-07-03",
+        "lastVerified": "2026-07-15",
         "confidence": "high"
       },
       "src-pa-register": {
@@ -116,7 +116,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-07-03",
+        "lastVerified": "2026-07-15",
         "confidence": "high"
       },
       "src-pa-reg-status": {
@@ -140,7 +140,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-07-03",
+        "lastVerified": "2026-07-15",
         "confidence": "high"
       },
       "src-pa-title25": {
@@ -226,7 +226,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 7,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-07-08",
+        "lastVerified": "2026-07-15",
         "confidence": "medium",
         "notes": "Used as district-context/secondary source for PA-07 boundary and previous results. Cross-check against an official map source before public reliance."
       },
@@ -1061,20 +1061,90 @@
         "relevanceSummary": "Votebeat reports that a federal judge dismissed a DOJ lawsuit seeking Pennsylvania voters’ private information, a direct election-administration issue. PA-07 voters have an interest because the ruling affects how state voter-roll data is protected and managed.",
         "tag": "litigation",
         "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0v357tt",
+        "headline": "PA voting laws could change if Democrats win 2026 elections",
+        "sourceName": "Spotlight PA",
+        "url": "https://www.spotlightpa.org/news/2026/07/election-law-changes-democratic-trifecta-2026-midterm-shapiro-elections/",
+        "publishedAt": "2026-07-12",
+        "relevanceSummary": "Spotlight PA reports that if Democrats secure a governing trifecta in Harrisburg, they are poised to advance changes to election law such as expanded pre-canvassing of mail ballots and codifying key court rulings, which would directly affect statewide voting procedures for PA-07 voters.[2]",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0f2rd44",
+        "headline": "With data centers in mind, Pa. House votes to close Sunshine Act loophole after court ruling",
+        "sourceName": "PennLive",
+        "url": "https://www.pennlive.com/news/2026/07/pa-lawmakers-move-to-close-sunshine-act-loophole-to-prevent-surprise-data-center-approvals.html",
+        "publishedAt": "2026-07-11",
+        "relevanceSummary": "PennLive reports that the Pennsylvania House overwhelmingly approved a bill to tighten the Sunshine Act by limiting when public bodies can add agenda items less than 24 hours before meetings, improving transparency in official decision-making, including actions by county election boards that affect PA-07 voters.[7]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0rk8lsi",
+        "headline": "Pa. House passes ‘pre-canvassing’ bill that would speed up election results",
+        "sourceName": "KYW Newsradio",
+        "url": "https://www.audacy.com/kywnewsradio/news/local/pa-bill-pre-canvassing-election-ballots",
+        "publishedAt": "2026-07-10",
+        "relevanceSummary": "The Pennsylvania House passed a bill to allow county officials to begin pre-canvassing mail-in ballots one week before Election Day, which would change how ballots are processed and how quickly results are reported for all voters, including those in PA-07.[3]",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-07bii6q",
+        "headline": "Election laws still point of debate in Pennsylvania",
+        "sourceName": "Altoona Mirror",
+        "url": "https://www.altoonamirror.com/news/local-news/2026/07/pa-election-laws-still-point-of-debate/",
+        "publishedAt": "2026-07-07",
+        "relevanceSummary": "This article reviews ongoing political and legal disputes over Pennsylvania’s election laws, referencing past state Supreme Court rulings on congressional maps and the Free and Equal Elections Clause, which frame current and future redistricting and election-law debates affecting districts like PA-07.[4]",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0d0mjd1",
+        "headline": "Adjust Mail-In Ballot Application Deadline and Extend Pre-Canvass Period: Luzerne County recommendations",
+        "sourceName": "Luzerne County, PA",
+        "url": "https://www.luzernecounty.org/m/newsflash",
+        "publishedAt": "2026-07-03",
+        "relevanceSummary": "Luzerne County officials outline proposed changes to Pennsylvania’s Election Code, including moving the mail-in ballot application deadline from 7 to 14 days before elections and lengthening the pre-canvass period, reforms that would apply statewide and influence mail voting logistics for PA-07 if enacted.[8]",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0vcmvq8",
+        "headline": "How to Vote in Erie County: Polling hours and mail ballot return",
+        "sourceName": "Erie County Council",
+        "url": "https://www.eriecountycouncilpa.gov/elections-voting/how-to-vote",
+        "publishedAt": "2026-06-30",
+        "relevanceSummary": "Erie County’s guidance details standard Pennsylvania procedures for polling hours, in-line voting rights, and contacting county officials about registration, illustrating county-level election administration practices that mirror those used in other counties statewide, including those that comprise PA-07.[6]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0g2x4h6",
+        "headline": "Voting and Election Information in Pennsylvania",
+        "sourceName": "Pennsylvania Office of Attorney General",
+        "url": "https://www.attorneygeneral.gov/for-the-public/voting-and-elections/",
+        "publishedAt": "2026-06-25",
+        "relevanceSummary": "The Attorney General’s updated voter guidance explains current statewide rules on polling-place challenges, provisional ballots, and critical mail-in ballot requirements—such as using the secrecy envelope and properly signing and dating the return envelope—which directly govern how PA-07 voters must cast valid ballots.[1]",
+        "tag": "voter-info",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-08-pa07-auto",
-      "startedAt": "2026-07-08T19:38:51.196Z",
-      "completedAt": "2026-07-08T19:38:54.391Z",
+      "id": "run-2026-07-15-pa07-auto",
+      "startedAt": "2026-07-15T06:32:07.619Z",
+      "completedAt": "2026-07-15T06:32:49.960Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 14,
-      "updatesCreated": 0,
+      "sourcesChecked": 11,
+      "updatesCreated": 7,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-08 for PA-07. Sources checked: 14. LLM verifications: 8. 1 lastVerified bump on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-15 for PA-07. Sources checked: 11. LLM verifications: 9. 6 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-15T19:38:54.391Z",
+    "NEXT_REFRESH_AT": "2026-07-22T06:32:49.960Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa07-2026-w25",
       "periodStart": "2026-06-03",
