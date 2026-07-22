@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-15",
-  "updatedAt": "2026-07-15T06:32:49.960Z",
-  "exportedAt": "2026-07-15T06:41:34.468Z",
+  "dataAsOf": "2026-07-22",
+  "updatedAt": "2026-07-22T06:44:01.825Z",
+  "exportedAt": "2026-07-22T06:53:12.290Z",
   "districtCode": "PA-07",
   "data": {
     "DISTRICT": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-07-15",
+        "lastVerified": "2026-07-22",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-07-15",
+        "lastVerified": "2026-07-22",
         "confidence": "high"
       },
       "src-pa-ballot-tracking": {
@@ -104,7 +104,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-07-15",
+        "lastVerified": "2026-07-22",
         "confidence": "high"
       },
       "src-pa-register": {
@@ -116,7 +116,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-07-15",
+        "lastVerified": "2026-07-22",
         "confidence": "high"
       },
       "src-pa-reg-status": {
@@ -140,7 +140,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-07-15",
+        "lastVerified": "2026-07-22",
         "confidence": "high"
       },
       "src-pa-title25": {
@@ -226,7 +226,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 7,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-07-15",
+        "lastVerified": "2026-07-22",
         "confidence": "medium",
         "notes": "Used as district-context/secondary source for PA-07 boundary and previous results. Cross-check against an official map source before public reliance."
       },
@@ -1131,20 +1131,30 @@
         "relevanceSummary": "The Attorney General’s updated voter guidance explains current statewide rules on polling-place challenges, provisional ballots, and critical mail-in ballot requirements—such as using the secrecy envelope and properly signing and dating the return envelope—which directly govern how PA-07 voters must cast valid ballots.[1]",
         "tag": "voter-info",
         "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0zhp1k5",
+        "headline": "Can Pa. elections officials get approval to sort mail ballots earlier?",
+        "sourceName": "GoErie",
+        "url": "https://www.goerie.com/story/news/politics/state/2026/07/15/elections-pennsylvania-mail-ballots-pre-canvass-legislation/90917903007/",
+        "publishedAt": "2026-07-15",
+        "relevanceSummary": "This article explains proposed statewide legislation that would allow Pennsylvania counties to begin sorting and opening mail ballots up to seven days before Election Day, potentially affecting how quickly results are reported and how mail-in ballots are handled for all voters, including those in PA-07.",
+        "tag": "rule-change",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-15-pa07-auto",
-      "startedAt": "2026-07-15T06:32:07.619Z",
-      "completedAt": "2026-07-15T06:32:49.960Z",
+      "id": "run-2026-07-22-pa07-auto",
+      "startedAt": "2026-07-22T06:43:15.295Z",
+      "completedAt": "2026-07-22T06:44:01.825Z",
       "triggerType": "scheduled",
       "sourcesChecked": 11,
-      "updatesCreated": 7,
+      "updatesCreated": 1,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-15 for PA-07. Sources checked: 11. LLM verifications: 9. 6 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-22 for PA-07. Sources checked: 11. LLM verifications: 11. 6 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-22T06:32:49.960Z",
+    "NEXT_REFRESH_AT": "2026-07-29T06:44:01.825Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa07-2026-w25",
       "periodStart": "2026-06-03",
