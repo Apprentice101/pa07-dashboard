@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-22",
-  "updatedAt": "2026-07-22T06:44:01.825Z",
-  "exportedAt": "2026-07-22T21:18:09.469Z",
+  "dataAsOf": "2026-07-29",
+  "updatedAt": "2026-07-29T06:47:59.504Z",
+  "exportedAt": "2026-07-29T06:56:35.385Z",
   "districtCode": "PA-07",
   "data": {
     "DISTRICT": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "high"
       },
       "src-pa-ballot-tracking": {
@@ -104,7 +104,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "high"
       },
       "src-pa-register": {
@@ -116,7 +116,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "high"
       },
       "src-pa-reg-status": {
@@ -140,7 +140,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "high"
       },
       "src-pa-title25": {
@@ -226,7 +226,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 7,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "medium",
         "notes": "Used as district-context/secondary source for PA-07 boundary and previous results. Cross-check against an official map source before public reliance."
       },
@@ -1141,20 +1141,70 @@
         "relevanceSummary": "This article explains proposed statewide legislation that would allow Pennsylvania counties to begin sorting and opening mail ballots up to seven days before Election Day, potentially affecting how quickly results are reported and how mail-in ballots are handled for all voters, including those in PA-07.",
         "tag": "rule-change",
         "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0igi3zv",
+        "headline": "Pa. Republicans in Congress stay quiet on Trump’s new ‘Save America Act’ targeting elections",
+        "sourceName": "The Philadelphia Inquirer",
+        "url": "https://www.inquirer.com/politics/pennsylvania/dave-mccormick-donald-trump-save-america-act-election-fraud-20260726.html",
+        "publishedAt": "2026-07-26",
+        "relevanceSummary": "The article explains that the proposed federal 'Save America Act' would require voters to provide proof of citizenship when registering and to show photo ID at the polls, changes that would directly alter voter-registration and voter-ID procedures for all Pennsylvania voters if enacted.",
+        "tag": "legislation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0yeqsd6",
+        "headline": "McCormick, Pa. GOP push voter ID bill but don’t challenge Trump’s 2020 fraud claims",
+        "sourceName": "PennLive",
+        "url": "https://www.pennlive.com/politics/2026/07/mccormick-pa-gop-push-voter-id-bill-but-dont-challenge-trumps-2020-fraud-claims.html",
+        "publishedAt": "2026-07-18",
+        "relevanceSummary": "This article explains Pennsylvania Republicans’ support for the federal SAVE America Act, which would require proof of citizenship to register and photo ID to vote, and would scale back mail voting—changes that would directly alter voter registration, in‑person ID rules, and mail‑in ballot access for all Pennsylvania voters, including those in PA‑07.[1][8]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0wz23in",
+        "headline": "Shapiro responds to Trump, DHS claims on noncitizens on Pa. voter rolls",
+        "sourceName": "Erie Times-News (GoErie)",
+        "url": "https://www.goerie.com/story/news/politics/state/2026/07/17/gov-shapiro-responds-trump-claims-noncitizens-on-pa-voter-rolls/90951920007/",
+        "publishedAt": "2026-07-17",
+        "relevanceSummary": "This statewide piece details DHS claims about noncitizens on Pennsylvania’s voter rolls and the response from Gov. Shapiro and Secretary of the Commonwealth Al Schmidt, who emphasize existing voter‑verification requirements at registration, for mail voting, and when voting at a new polling place—procedures that govern how PA‑07 voters register and cast ballots.[2]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-093kjen",
+        "headline": "Pennsylvania",
+        "sourceName": "VoteRiders",
+        "url": "https://voteriders.org/states/pennsylvania/",
+        "publishedAt": "2026-07-15",
+        "relevanceSummary": "This updated voter resource explains Pennsylvania’s voter‑ID rules, including that ID is generally required only the first time a voter casts a ballot in a precinct, lists accepted photo and non‑photo IDs, and details ID number and ID‑copy requirements when requesting mail‑in or absentee ballots—directly guiding PA‑07 voters on how to comply with ID and mail‑ballot procedures.[12]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-04i18in",
+        "headline": "Legislative Update: PennDOT document privacy and Office of Open Records appeal changes",
+        "sourceName": "Pennsylvania NewsMedia Association",
+        "url": "https://panewsmedia.org/legislative-affairs/legislative-update/",
+        "publishedAt": "2026-07-10",
+        "relevanceSummary": "This legislative update notes a planned bill to limit PennDOT’s disclosure of documents used to obtain driver’s licenses or ID cards and explains new filing rules for appeals to the Office of Open Records; changes to ID document privacy and access could affect how voter‑ID records are handled and how election‑related public records are challenged statewide, including in PA‑07.[14]",
+        "tag": "legislation",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-22-pa07-auto",
-      "startedAt": "2026-07-22T06:43:15.295Z",
-      "completedAt": "2026-07-22T06:44:01.825Z",
+      "id": "run-2026-07-29-pa07-auto",
+      "startedAt": "2026-07-29T06:47:23.907Z",
+      "completedAt": "2026-07-29T06:47:59.504Z",
       "triggerType": "scheduled",
       "sourcesChecked": 11,
-      "updatesCreated": 1,
+      "updatesCreated": 5,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-22 for PA-07. Sources checked: 11. LLM verifications: 11. 6 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-29 for PA-07. Sources checked: 11. LLM verifications: 8. 6 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-29T06:44:01.825Z",
+    "NEXT_REFRESH_AT": "2026-08-05T06:47:59.504Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa07-2026-w25",
       "periodStart": "2026-06-03",
