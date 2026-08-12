@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-05",
-  "updatedAt": "2026-08-05T06:41:24.013Z",
-  "exportedAt": "2026-08-05T06:50:12.931Z",
+  "dataAsOf": "2026-08-12",
+  "updatedAt": "2026-08-12T05:41:39.018Z",
+  "exportedAt": "2026-08-12T05:49:47.822Z",
   "districtCode": "PA-07",
   "data": {
     "DISTRICT": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-08-05",
+        "lastVerified": "2026-08-12",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-08-05",
+        "lastVerified": "2026-08-12",
         "confidence": "high"
       },
       "src-pa-ballot-tracking": {
@@ -140,7 +140,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-08-05",
+        "lastVerified": "2026-08-12",
         "confidence": "high"
       },
       "src-pa-title25": {
@@ -226,7 +226,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 7,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-08-05",
+        "lastVerified": "2026-08-12",
         "confidence": "medium",
         "notes": "Used as district-context/secondary source for PA-07 boundary and previous results. Cross-check against an official map source before public reliance."
       },
@@ -1231,20 +1231,60 @@
         "relevanceSummary": "This article examines Republican messaging around voter ID and the SAVE America Act, which includes provisions on voter identification and proof of citizenship that could reshape ID requirements for registration and voting nationwide, including for Pennsylvania voters if enacted.[10]",
         "tag": "voter-id",
         "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0wtibus",
+        "headline": "Elections - Franklin County",
+        "sourceName": "Franklin County Government",
+        "url": "https://www.franklincountypa.gov/elections/",
+        "publishedAt": "2026-08-12",
+        "relevanceSummary": "The county elections page states that polls are open 7 a.m. to 8 p.m., explains polling-place assignment, and notes that first-time voters or voters who changed name/address may need approved identification. This is relevant to PA-07 voters because Franklin County is partly in the district and the page reflects local election-administration and voter-ID procedures.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0goulft",
+        "headline": "Voters spared as Senate recesses without passing SAVE America Acts’ voter ID measure",
+        "sourceName": "Democracy Docket",
+        "url": "https://www.democracydocket.com/news-alerts/voters-spared-as-senate-recesses-without-passing-save-america-acts-voter-id-measure/",
+        "publishedAt": "2026-08-08",
+        "relevanceSummary": "The article reports that Senate Republicans failed to advance a federal voter-photo-ID measure, so no immediate national rule change took effect. That matters for PA-07 voters because it addresses proposed voter-ID requirements that would have applied to Pennsylvania federal elections.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0jnewj8",
+        "headline": "A bill to amend the Help America Vote Act of 2002 to require voters to provide photo identification.",
+        "sourceName": "Congress.gov",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5271/text",
+        "publishedAt": "2026-08-08",
+        "relevanceSummary": "This federal bill would require photo ID for in-person voting and a copy of photo ID, or a Social Security-number-based affidavit, for mail ballots in federal elections, which would directly affect Pennsylvania voters if enacted. It is relevant to PA-07 because it concerns voter-ID and mail-ballot identification rules that would apply to all Pennsylvania voters.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-06g8jzv",
+        "headline": "A routine voter roll update in Pa. prompted misinformation from conservative activists",
+        "sourceName": "MSN",
+        "url": "https://www.msn.com/en-us/news/other/a-routine-voter-roll-update-in-pa-prompted-misinformation-from-conservative-activists/ar-AA29r5nk",
+        "publishedAt": "2026-08-06",
+        "relevanceSummary": "The piece says Pennsylvania counties are conducting routine voter-list maintenance required under the National Voter Registration Act, and that inactive voters remain eligible and can still vote. That directly affects PA-07 voters because statewide registration maintenance rules apply in every county, including the district’s counties.",
+        "tag": "voter-info",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-05-pa07-auto",
-      "startedAt": "2026-08-05T06:40:57.418Z",
-      "completedAt": "2026-08-05T06:41:24.013Z",
+      "id": "run-2026-08-12-pa07-auto",
+      "startedAt": "2026-08-12T05:41:15.380Z",
+      "completedAt": "2026-08-12T05:41:39.018Z",
       "triggerType": "scheduled",
       "sourcesChecked": 11,
       "updatesCreated": 4,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-05 for PA-07. Sources checked: 11. LLM verifications: 7. 5 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-12 for PA-07. Sources checked: 11. LLM verifications: 6. 4 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-12T06:41:24.013Z",
+    "NEXT_REFRESH_AT": "2026-08-19T05:41:39.018Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa07-2026-w25",
       "periodStart": "2026-06-03",
