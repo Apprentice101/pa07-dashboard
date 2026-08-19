@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-12",
-  "updatedAt": "2026-08-12T05:41:39.018Z",
-  "exportedAt": "2026-08-12T05:49:47.822Z",
+  "dataAsOf": "2026-08-19",
+  "updatedAt": "2026-08-19T04:59:52.859Z",
+  "exportedAt": "2026-08-19T05:10:00.474Z",
   "districtCode": "PA-07",
   "data": {
     "DISTRICT": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "high"
       },
       "src-pa-ballot-tracking": {
@@ -104,7 +104,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-07-29",
+        "lastVerified": "2026-08-19",
         "confidence": "high"
       },
       "src-pa-register": {
@@ -116,7 +116,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-08-05",
+        "lastVerified": "2026-08-19",
         "confidence": "high"
       },
       "src-pa-reg-status": {
@@ -140,7 +140,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "high"
       },
       "src-pa-title25": {
@@ -226,7 +226,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 7,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "medium",
         "notes": "Used as district-context/secondary source for PA-07 boundary and previous results. Cross-check against an official map source before public reliance."
       },
@@ -1271,20 +1271,80 @@
         "relevanceSummary": "The piece says Pennsylvania counties are conducting routine voter-list maintenance required under the National Voter Registration Act, and that inactive voters remain eligible and can still vote. That directly affects PA-07 voters because statewide registration maintenance rules apply in every county, including the district’s counties.",
         "tag": "voter-info",
         "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0awkip6",
+        "headline": "Pennsylvania 2026 Election Dates",
+        "sourceName": "PoliticsPA",
+        "url": "https://www.politicspa.com/elections/election-dates",
+        "publishedAt": "2026-08-18",
+        "relevanceSummary": "Summarizes key 2026 Pennsylvania election dates and procedural options such as no-excuse mail-in voting, early in-person voting via county election offices, and first-time voter ID requirements, all of which directly govern how PA-07 voters can cast ballots.[9]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0yadfz8",
+        "headline": "Here's how to vote in Pennsylvania's 2026 midterm elections",
+        "sourceName": "Keystone Newsroom",
+        "url": "https://keystonenewsroom.com/news/elections/how-to-vote-pa-midterm-elections/",
+        "publishedAt": "2026-08-18",
+        "relevanceSummary": "Provides Pennsylvania voters, including those in PA-07, with step-by-step guidance on voting by no-excuse mail-in or absentee ballot and in-person, including voter registration and mail-ballot application deadlines, ballot-return rules, and identification requirements for first-time voters.[2]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-04j8exw",
+        "headline": "Ward Introduces Legislation to Strengthen, Modernize Pennsylvania’s Voter Registration System",
+        "sourceName": "Senator Judy Ward",
+        "url": "https://senatorjudyward.com/2026/08/17/ward-introduces-legislation-to-strengthen-modernize-pennsylvanias-voter-registration-system/",
+        "publishedAt": "2026-08-17",
+        "relevanceSummary": "Describes proposed statewide legislation to modernize Pennsylvania’s voter registration system, including a program to update voter rolls between the primary and general election, which would directly affect the registration status and records of voters in PA-07 if enacted.[5]",
+        "tag": "legislation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0p13o7n",
+        "headline": "APOLLO MAN CHARGED WITH VOTING TWICE IN THE 2024 PRESIDENTIAL ELECTION",
+        "sourceName": "WCCS Radio",
+        "url": "https://www.wccsradio.com/2026/08/15/1376111/",
+        "publishedAt": "2026-08-15",
+        "relevanceSummary": "Local coverage of the indictment of a Pennsylvania man for submitting two mail-in ballots, one for Pennsylvania and one for Alaska, underscoring how Pennsylvania officials and federal prosecutors enforce mail-ballot rules and deter double voting in statewide elections.[15][1]",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0n1h2tx",
+        "headline": "Apollo Man Charged with Casting Multiple Votes in 2024 Presidential Election",
+        "sourceName": "U.S. Department of Justice, Western District of Pennsylvania",
+        "url": "https://www.justice.gov/usao-wdpa/pr/apollo-man-charged-casting-multiple-votes-2024-presidential-election",
+        "publishedAt": "2026-08-14",
+        "relevanceSummary": "Details federal charges against a Pennsylvania resident for casting two mail-in ballots in the 2024 presidential election, highlighting enforcement of mail-ballot rules and fraud safeguards that reinforce the security and legal consequences surrounding Pennsylvania’s mail-in voting system for all voters, including those in PA-07.[1][15]",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0k28whx",
+        "headline": "6 important things to know about voting by mail in Pennsylvania",
+        "sourceName": "Keystone Newsroom",
+        "url": "https://keystonenewsroom.com/news/elections/6-important-things-to-know-about-voting-by-mail-in-pennsylvania/",
+        "publishedAt": "2026-08-13",
+        "relevanceSummary": "Outlines Pennsylvania’s mail-in voting procedures that apply statewide, explaining application deadlines, ballot-return rules, the use of county drop boxes, and critical envelope and declaration requirements that determine whether PA-07 voters’ mail ballots are counted.[7]",
+        "tag": "voter-resource",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-12-pa07-auto",
-      "startedAt": "2026-08-12T05:41:15.380Z",
-      "completedAt": "2026-08-12T05:41:39.018Z",
+      "id": "run-2026-08-19-pa07-auto",
+      "startedAt": "2026-08-19T04:59:19.248Z",
+      "completedAt": "2026-08-19T04:59:52.859Z",
       "triggerType": "scheduled",
       "sourcesChecked": 11,
-      "updatesCreated": 4,
+      "updatesCreated": 6,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-12 for PA-07. Sources checked: 11. LLM verifications: 6. 4 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-19 for PA-07. Sources checked: 11. LLM verifications: 6. 6 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-19T05:41:39.018Z",
+    "NEXT_REFRESH_AT": "2026-08-26T04:59:52.859Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa07-2026-w25",
       "periodStart": "2026-06-03",
