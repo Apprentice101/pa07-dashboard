@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-19",
-  "updatedAt": "2026-08-19T04:59:52.859Z",
-  "exportedAt": "2026-08-19T05:10:00.474Z",
+  "dataAsOf": "2026-08-26",
+  "updatedAt": "2026-08-26T05:06:52.205Z",
+  "exportedAt": "2026-08-26T05:17:51.553Z",
   "districtCode": "PA-07",
   "data": {
     "DISTRICT": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "high"
       },
       "src-pa-ballot-tracking": {
@@ -104,7 +104,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "high"
       },
       "src-pa-register": {
@@ -116,7 +116,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "high"
       },
       "src-pa-reg-status": {
@@ -226,7 +226,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 7,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "medium",
         "notes": "Used as district-context/secondary source for PA-07 boundary and previous results. Cross-check against an official map source before public reliance."
       },
@@ -1331,20 +1331,80 @@
         "relevanceSummary": "Outlines Pennsylvania’s mail-in voting procedures that apply statewide, explaining application deadlines, ballot-return rules, the use of county drop boxes, and critical envelope and declaration requirements that determine whether PA-07 voters’ mail ballots are counted.[7]",
         "tag": "voter-resource",
         "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0fjpzvf",
+        "headline": "Shapiro: Mail voting unchanged for 2026 after SCOTUS ruling",
+        "sourceName": "Axios Pittsburgh",
+        "url": "https://www.axios.com/local/pittsburgh/2026/08/25/supreme-court-mail-voting-shapiro-pennsylvania-2026",
+        "publishedAt": "2026-08-25",
+        "relevanceSummary": "This article reports that, despite a recent U.S. Supreme Court ruling on U.S. Postal Service rules, Pennsylvania's existing mail voting laws and county procedures remain unchanged for the 2026 election, reassuring PA-07 voters that they can continue to vote by mail under the current rules.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0ckq13q",
+        "headline": "Pa. election 2026: Voter guides, key races and more",
+        "sourceName": "WHYY",
+        "url": "https://whyy.org/articles/pennsylvania-election-2026-voter-guide-deadlines-candidates/",
+        "publishedAt": "2026-08-25",
+        "relevanceSummary": "This statewide voter guide explains key Pennsylvania deadlines for voter registration, how to request and return mail and absentee ballots, where to drop off mail ballots, how to find polling places, and how to check ballot status, all of which directly govern how PA-07 voters cast ballots in November.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-023spxi",
+        "headline": "US Postal Service issues rules to tighten mail-in voting if court gives OK",
+        "sourceName": "Reuters",
+        "url": "https://www.reuters.com/world/us-postal-service-issues-rules-tighten-mail-in-voting-if-court-gives-ok-2026-08-22/",
+        "publishedAt": "2026-08-22",
+        "relevanceSummary": "This national piece details a new USPS rule that would require states to provide names and barcodes tied to mail ballots and to use unique barcodes on ballot envelopes; if implemented, it could affect how Pennsylvania, including PA-07 counties, prepare and track mail ballots for federal elections.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0dlgvkw",
+        "headline": "Pennsylvania elections could look very different if Democrats win full control of state government in 2026",
+        "sourceName": "ABC17 / Stacker (Pennsylvania analysis)",
+        "url": "https://abc17news.com/stacker-government-politics/2026/08/21/pennsylvania-elections-could-look-very-different-if-democrats-win-full-control-of-state-government-in-2026/",
+        "publishedAt": "2026-08-21",
+        "relevanceSummary": "This piece describes a Democratic-backed Pennsylvania elections bill that would mandate at least two mail ballot drop boxes per county, authorize true in-person early voting, require electronic pollbooks by 2027, expand pre-canvassing of mail ballots, and consider preregistration and same-day registration, all of which would significantly change voting procedures for PA-07 if enacted.",
+        "tag": "legislation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-03y5rde",
+        "headline": "Postal Service Publishes Finalized Plan to Restrict Mail Ballots",
+        "sourceName": "The New York Times",
+        "url": "https://www.nytimes.com/2026/08/21/us/politics/postal-service-rule-restrict-mail-ballots.html",
+        "publishedAt": "2026-08-21",
+        "relevanceSummary": "This article explains that USPS has finalized a plan under which ballot envelopes must meet new standards and will be reviewed for compliance before acceptance, a procedural change that could influence how Pennsylvania election officials and PA-07 voters use mail ballots even if courts or injunctions affect timing.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-01c9kdy",
+        "headline": "Election bureau: Dukes followed rules inside Adams Township building with voting precinct",
+        "sourceName": "Cranberry Eagle",
+        "url": "https://www.cranberryeagle.com/2026/08/20/election-bureau-dukes-followed-rules-inside-adams-township-building-with-voting-precinct/",
+        "publishedAt": "2026-08-20",
+        "relevanceSummary": "This county-level Pennsylvania article explains rules for voter and poll watcher conduct inside polling places, including restrictions on campaign merchandise and behavior, offering insight into statewide norms and enforcement practices that inform how polling-place rules may be applied in PA-07.",
+        "tag": "administration",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-19-pa07-auto",
-      "startedAt": "2026-08-19T04:59:19.248Z",
-      "completedAt": "2026-08-19T04:59:52.859Z",
+      "id": "run-2026-08-26-pa07-auto",
+      "startedAt": "2026-08-26T05:05:40.630Z",
+      "completedAt": "2026-08-26T05:06:52.205Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 11,
+      "sourcesChecked": 14,
       "updatesCreated": 6,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-19 for PA-07. Sources checked: 11. LLM verifications: 6. 6 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-26 for PA-07. Sources checked: 14. LLM verifications: 9. 5 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-26T04:59:52.859Z",
+    "NEXT_REFRESH_AT": "2026-09-02T05:06:52.205Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa07-2026-w25",
       "periodStart": "2026-06-03",
