@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-26",
-  "updatedAt": "2026-08-26T05:06:52.205Z",
-  "exportedAt": "2026-08-26T05:17:51.553Z",
+  "dataAsOf": "2026-09-02",
+  "updatedAt": "2026-09-02T08:57:27.444Z",
+  "exportedAt": "2026-09-02T09:11:44.182Z",
   "districtCode": "PA-07",
   "data": {
     "DISTRICT": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "high"
       },
       "src-pa-ballot-tracking": {
@@ -104,7 +104,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "high"
       },
       "src-pa-register": {
@@ -116,7 +116,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "high"
       },
       "src-pa-reg-status": {
@@ -152,7 +152,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-01-10",
-        "lastVerified": "2026-05-26",
+        "lastVerified": "2026-09-02",
         "confidence": "high"
       },
       "src-pa-election-code-pdf": {
@@ -177,7 +177,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-05-26",
+        "lastVerified": "2026-09-02",
         "confidence": "high"
       },
       "src-northampton-elections": {
@@ -226,7 +226,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 7,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "medium",
         "notes": "Used as district-context/secondary source for PA-07 boundary and previous results. Cross-check against an official map source before public reliance."
       },
@@ -1391,20 +1391,100 @@
         "relevanceSummary": "This county-level Pennsylvania article explains rules for voter and poll watcher conduct inside polling places, including restrictions on campaign merchandise and behavior, offering insight into statewide norms and enforcement practices that inform how polling-place rules may be applied in PA-07.",
         "tag": "administration",
         "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0ok52mp",
+        "headline": "PA election 2026: How to request, fill out, return your mail ballot",
+        "sourceName": "WHYY",
+        "url": "https://whyy.org/articles/election-2026-pennsylvania-mail-ballot-how-to/",
+        "publishedAt": "2026-08-31",
+        "relevanceSummary": "Explains how Pennsylvania voters can request, complete, and return mail and absentee ballots in 2026, including use of PennDOT or Social Security information to apply and options to return ballots via mail, county election offices, or secure drop boxes, which directly applies to PA-07 voters.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0qwzsvc",
+        "headline": "State launches voter registration dashboard",
+        "sourceName": "Times Observer",
+        "url": "https://www.timesobserver.com/news/local-news/2026/08/state-launches-voter-registration-dashboard/",
+        "publishedAt": "2026-08-28",
+        "relevanceSummary": "Announces a new Pennsylvania voter registration dashboard built on the statewide SURE system maintained by all 67 county boards of elections, offering PA-07 voters a new tool to track registration data and understand registration trends while reflecting statewide administration of the voter rolls.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0ksmt84",
+        "headline": "Judge blocks rule implementing Trump plan to restrict mail-in voting",
+        "sourceName": "The Daily Record",
+        "url": "https://thedailyrecord.com/2026/08/28/judge-blocks-usps-rule-restricting-mail-in-voting/",
+        "publishedAt": "2026-08-28",
+        "relevanceSummary": "Reports a federal judge blocking a USPS rule that would have required states to supply lists of mail ballot recipients and place unique barcodes on all ballot envelopes, temporarily halting implementation of restrictions that could have complicated mail voting logistics for Pennsylvania and PA-07 voters.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0v4qllj",
+        "headline": "PA voting groups: Mail-in ballots still an option, despite SCOTUS ruling",
+        "sourceName": "Big News Network / Public News Service",
+        "url": "https://www.bignewsnetwork.com/news/279270215/pa-voting-groups-mail-in-ballots-still-an-option-despite-scotus-ruling",
+        "publishedAt": "2026-08-28",
+        "relevanceSummary": "Reports that, despite a recent U.S. Supreme Court decision, Pennsylvania’s mail-in voting procedures remain unchanged and secure, with voting groups urging voters to request and return mail ballots early and to use county drop boxes or satellite election offices where available, directly affecting how PA-07 voters can plan to vote.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0bilfkv",
+        "headline": "Luzerne County Council considers request for more mail ballot drop boxes",
+        "sourceName": "FOX56",
+        "url": "https://fox56.com/news/local/luzerne-county-council-considers-request-for-more-mail-ballot-drop-boxes",
+        "publishedAt": "2026-08-27",
+        "relevanceSummary": "Covers Luzerne County’s debate over adding more mail-ballot drop boxes and notes local deadlines for issuing general-election mail ballots, illustrating how Pennsylvania counties are managing drop-box access and timelines in ways that could influence expectations and best practices for PA-07’s counties.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-07i9w8p",
+        "headline": "US Postal Service says new mail ballot rules tied to Trump order are in effect",
+        "sourceName": "The Guardian",
+        "url": "https://www.theguardian.com/us-news/2026/aug/27/us-postal-service-mail-ballot-rules-trump-order",
+        "publishedAt": "2026-08-27",
+        "relevanceSummary": "Details USPS implementation of new nationwide mail-ballot rules requiring states to provide voter lists and use unique barcodes on ballot envelopes, which could affect how Pennsylvania and PA-07 election officials coordinate mail ballot delivery and tracking even though the state’s core mail-voting procedures remain in place.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0ly2mhn",
+        "headline": "Supreme Court Lets Trump’s Mail Voting Limits Stand for November 2026",
+        "sourceName": "LegalTech Digest",
+        "url": "https://legaltechdigest.com/news/supreme-court-lets-trump-s-mail-voting-limits-stand-for-november-2026",
+        "publishedAt": "2026-08-27",
+        "relevanceSummary": "Covers the U.S. Supreme Court allowing new federal limits on mail voting to remain in place for 2026, while noting Governor Josh Shapiro’s confirmation that Pennsylvania will continue using its existing mail voting procedures for this election cycle, giving PA-07 voters clarity that state mail-ballot rules remain stable despite national changes.",
+        "tag": "legal",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0il0cn6",
+        "headline": "Shapiro, Pa. officials continue to fight Trump mail-in ballot rules",
+        "sourceName": "WPSU",
+        "url": "https://radio.wpsu.org/2026-08-27/shapiro-pa-officials-continue-to-fight-trump-mail-in-ballot-rules",
+        "publishedAt": "2026-08-27",
+        "relevanceSummary": "Describes how Governor Josh Shapiro and Pennsylvania officials are challenging new federal mail-in ballot requirements while emphasizing that nothing about voting by mail in Pennsylvania has changed for now, assuring PA-07 voters that they can still vote safely and securely by mail in 2026.",
+        "tag": "litigation",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-26-pa07-auto",
-      "startedAt": "2026-08-26T05:05:40.630Z",
-      "completedAt": "2026-08-26T05:06:52.205Z",
+      "id": "run-2026-09-02-pa07-auto",
+      "startedAt": "2026-09-02T08:55:51.863Z",
+      "completedAt": "2026-09-02T08:57:27.444Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 14,
-      "updatesCreated": 6,
+      "sourcesChecked": 13,
+      "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-26 for PA-07. Sources checked: 14. LLM verifications: 9. 5 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-02 for PA-07. Sources checked: 13. LLM verifications: 9. 7 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-02T05:06:52.205Z",
+    "NEXT_REFRESH_AT": "2026-09-09T08:57:27.444Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa07-2026-w25",
       "periodStart": "2026-06-03",
