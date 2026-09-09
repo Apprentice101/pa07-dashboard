@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-02",
-  "updatedAt": "2026-09-02T08:57:27.444Z",
-  "exportedAt": "2026-09-02T09:11:44.182Z",
+  "dataAsOf": "2026-09-09",
+  "updatedAt": "2026-09-09T09:10:34.778Z",
+  "exportedAt": "2026-09-09T09:22:06.153Z",
   "districtCode": "PA-07",
   "data": {
     "DISTRICT": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-09",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-09",
         "confidence": "high"
       },
       "src-pa-ballot-tracking": {
@@ -116,7 +116,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-09",
         "confidence": "high"
       },
       "src-pa-reg-status": {
@@ -140,7 +140,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-09-09",
         "confidence": "high"
       },
       "src-pa-title25": {
@@ -226,7 +226,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 7,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-09",
         "confidence": "medium",
         "notes": "Used as district-context/secondary source for PA-07 boundary and previous results. Cross-check against an official map source before public reliance."
       },
@@ -1471,20 +1471,70 @@
         "relevanceSummary": "Describes how Governor Josh Shapiro and Pennsylvania officials are challenging new federal mail-in ballot requirements while emphasizing that nothing about voting by mail in Pennsylvania has changed for now, assuring PA-07 voters that they can still vote safely and securely by mail in 2026.",
         "tag": "litigation",
         "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0qcwa1h",
+        "headline": "Lehigh County Polling Places Information",
+        "sourceName": "Lehigh County Voter Registration",
+        "url": "https://www.lehighcounty.org/Departments/Voter-Registration/Polling-Places",
+        "publishedAt": "2026-09-06",
+        "relevanceSummary": "This official Lehigh County resource provides an up-to-date list of all polling places in the county, which includes parts of PA-07, allowing voters to verify where they must vote in person on Election Day.[3] Accurate polling-location information is critical for voters to avoid confusion or mis-voting, particularly after any site changes or consolidations.[3]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0mzd1ag",
+        "headline": "Pennsylvania Voter ID & Registration Deadline | Alto",
+        "sourceName": "Alto",
+        "url": "https://alto.gab.com/politics/voter-id/pennsylvania",
+        "publishedAt": "2026-09-05",
+        "relevanceSummary": "This statewide explainer clarifies that most Pennsylvania voters, including those in PA-07, are not required to show ID at the polls except certain first-time voters who registered by mail and did not have their identity verified, who must present a photo ID or specified non-photo documents.[5] It also highlights registration-related ID rules, helping voters understand when and what identification is necessary under federal and state law.[5]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-09pwhgd",
+        "headline": "What’s at Stake for Elections at the Supreme Court",
+        "sourceName": "Voting Rights Lab",
+        "url": "https://votingrightslab.org/2026/09/02/whats-at-stake-for-elections-at-the-supreme-court/",
+        "publishedAt": "2026-09-02",
+        "relevanceSummary": "This analysis describes a Pennsylvania case where a federal district court barred county officials from discarding undated mail ballots, finding the date requirement burdens the right to vote, and notes the state lacks a uniform statutory mail-ballot cure process.[7] The litigation and potential Supreme Court review could affect how PA-07 voters’ mail ballots are treated, especially regarding envelope dates and opportunities to correct minor errors.[7]",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0pe9qrm",
+        "headline": "Myths & FAQS",
+        "sourceName": "Committee of Seventy",
+        "url": "https://seventy.org/get-informed/myths-faqs/",
+        "publishedAt": "2026-08-24",
+        "relevanceSummary": "This statewide nonpartisan FAQ reiterates that Pennsylvania mail-in ballots must be received by county election offices by 8 p.m. on Election Day and explains that voters can return ballots by mail, in person, or via county drop boxes where available.[12] It also clarifies differences between mail-in and absentee ballots and application methods, providing PA-07 voters with clear guidance on key deadlines and return procedures.[12]",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0utdxfz",
+        "headline": "Montgomery County adopts automatic ballot-curing policy to resend ballots with fixable defects",
+        "sourceName": "CitizenPortal",
+        "url": "https://citizenportal.ai/articles/9476676/pennsylvania/montgomery-county/montgomery-county-adopts-automatic-ballot-curing-policy-to-resend-ballots-with-fixable-defects",
+        "publishedAt": "2026-08-20",
+        "relevanceSummary": "This article reports that the Montgomery County Election Board adopted an automatic ballot-curing procedure that cancels defective mail ballots, retains the originals, and mails replacement ballots and explanatory notices for correctable defects until the Friday before Election Day, with in-person cure options thereafter.[11] While the policy is county-specific, it illustrates evolving ballot-curing practices in Pennsylvania that may influence or set precedent for other counties serving PA-07 voters.[11]",
+        "tag": "administration",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-02-pa07-auto",
-      "startedAt": "2026-09-02T08:55:51.863Z",
-      "completedAt": "2026-09-02T08:57:27.444Z",
+      "id": "run-2026-09-09-pa07-auto",
+      "startedAt": "2026-09-09T09:08:55.721Z",
+      "completedAt": "2026-09-09T09:10:34.778Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 13,
-      "updatesCreated": 8,
+      "sourcesChecked": 11,
+      "updatesCreated": 5,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-02 for PA-07. Sources checked: 13. LLM verifications: 9. 7 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-09 for PA-07. Sources checked: 11. LLM verifications: 9. 5 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-09T08:57:27.444Z",
+    "NEXT_REFRESH_AT": "2026-09-16T09:10:34.778Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa07-2026-w25",
       "periodStart": "2026-06-03",
