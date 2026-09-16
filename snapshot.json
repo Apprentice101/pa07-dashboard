@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-09",
-  "updatedAt": "2026-09-09T09:10:34.778Z",
-  "exportedAt": "2026-09-09T20:55:30.885Z",
+  "dataAsOf": "2026-09-16",
+  "updatedAt": "2026-09-16T09:41:13.663Z",
+  "exportedAt": "2026-09-16T09:53:41.348Z",
   "districtCode": "PA-07",
   "data": {
     "DISTRICT": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "high"
       },
       "src-pa-dos-voter-id-guidance-2025": {
@@ -104,7 +104,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-09-09",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "high"
       },
       "src-pa-dos-mail-ballot-id": {
@@ -128,7 +128,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-16",
         "confidence": "high"
       },
       "src-pa-register": {
@@ -140,7 +140,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "high"
       },
       "src-pa-reg-status": {
@@ -164,7 +164,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "high"
       },
       "src-pa-title25": {
@@ -250,7 +250,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 7,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "medium",
         "notes": "Used as district-context/secondary source for PA-07 boundary and previous results. Cross-check against an official map source before public reliance."
       },
@@ -1580,20 +1580,100 @@
         "relevanceSummary": "This article reports that the Montgomery County Election Board adopted an automatic ballot-curing procedure that cancels defective mail ballots, retains the originals, and mails replacement ballots and explanatory notices for correctable defects until the Friday before Election Day, with in-person cure options thereafter.[11] While the policy is county-specific, it illustrates evolving ballot-curing practices in Pennsylvania that may influence or set precedent for other counties serving PA-07 voters.[11]",
         "tag": "administration",
         "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0i06nyi",
+        "headline": "National Voter Registration Day: How Eligible Residents Can Register To Vote In Pennsylvania",
+        "sourceName": "Outlook India",
+        "url": "https://www.outlookindia.com/international/voter-registration-national-voter-registration-day-2026-us-midterm-elections",
+        "publishedAt": "2026-09-15",
+        "relevanceSummary": "This voter resource details how Pennsylvania residents can register to vote online, by mail, or in person, explains required identification such as driver’s licence or PennDOT ID numbers for online registration, and lists statewide mail-ballot request and return deadlines that govern PA-07 voters.[6][8]",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0qxacgn",
+        "headline": "Josh Shapiro celebrates as SCOTUS protects mail voting in Pa. and elsewhere from Trump’s restrictions",
+        "sourceName": "The Philadelphia Inquirer",
+        "url": "https://www.inquirer.com/politics/election/mail-voting-pennsylvania-scotus-decision-josh-shapiro-20260915.html",
+        "publishedAt": "2026-09-15",
+        "relevanceSummary": "This article explains that under Act 77, any Pennsylvania voter may request a mail ballot and that the Supreme Court ruling means no changes to mail-voting procedures, while reiterating statewide deadlines for voter registration, mail-ballot applications, and ballot receipt that apply to PA-07 voters.[15]",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0gwi337",
+        "headline": "Supreme Court decision keeps mail-in voting as Pennsylvania officials push voter registration",
+        "sourceName": "6ABC",
+        "url": "https://6abc.com/post/supreme-court-decision-keeps-mail-voting-pennsylvania-officials-push-voter-registration/19836429/",
+        "publishedAt": "2026-09-15",
+        "relevanceSummary": "A 7-2 Supreme Court decision leaves Pennsylvania’s existing mail-in voting rules in place for November, and state officials highlight key deadlines for requesting and returning mail ballots and using drop boxes, which directly affect how PA-07 voters can cast their votes this fall.[1]",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0lup3tt",
+        "headline": "Philadelphia City Commissioners unveil 1 of 5 new ballot drop-box locations",
+        "sourceName": "KYW Newsradio",
+        "url": "https://www.audacy.com/kywnewsradio/news/local/philadelphia-new-ballot-drop-box-locations",
+        "publishedAt": "2026-09-14",
+        "relevanceSummary": "Philadelphia officials announce a new ballot drop-box in West Philadelphia and plan four more, along with 11 satellite election offices that assist with registration and mail-in ballots, illustrating expanded drop-box and mail-ballot infrastructure in a major Pennsylvania county whose practices are relevant context for PA-07 voters.[9]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0cyslvf",
+        "headline": "Bucks County expands 'on-demand' voting locations ahead of election",
+        "sourceName": "PhillyBurbs",
+        "url": "https://www.phillyburbs.com/story/news/politics/elections/2026/09/11/bucks-county-midterm-election-vote-november-drop-box-mail-in-ballot-on-demand-democracy/91688754007/",
+        "publishedAt": "2026-09-11",
+        "relevanceSummary": "Bucks County’s Board of Elections approves additional temporary satellite election offices where voters can apply for, receive, and return mail-in ballots and handle voter registration alongside secure drop boxes, offering a county-level example of expanded voting access and administration in Pennsylvania relevant to PA-07 voters.[3]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0del6et",
+        "headline": "Pa. midterms voter guide for Nov. 3, 2026 election",
+        "sourceName": "WGAL",
+        "url": "https://www.wgal.com/article/pennsylvania-voter-guide-nov-3-election-midterms/73668345",
+        "publishedAt": "2026-09-10",
+        "relevanceSummary": "This statewide voter guide explains Pennsylvania’s rules for mail-in and absentee ballots, including that any registered voter may request a mail-in ballot and the specific deadlines for ballot applications and receipt, providing PA-07 voters with practical information on how to cast their ballots.[10]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0k4s4fl",
+        "headline": "'Nothing Has Changed,' PA Elections Chief Says After Mail-In Ballot Order",
+        "sourceName": "New Hope Free Press",
+        "url": "https://www.newhopefreepress.com/2026/09/10/nothing-has-changed-pa-elections-chief-says-after-mail-in-ballot-order/",
+        "publishedAt": "2026-09-10",
+        "relevanceSummary": "Pennsylvania’s elections chief confirms that all 67 counties will continue using existing mail-in ballot procedures and notes the Oct. 27 deadline to request a mail ballot and 8 p.m. Election Day return deadline, reinforcing for PA-07 voters that their current mail-voting rules remain unchanged.[7]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-07vtim3",
+        "headline": "Pennsylvania mail-voting rules unchanged ahead of general election",
+        "sourceName": "WGAL",
+        "url": "https://www.wgal.com/article/pennsylvania-election-officials-address-mail-voting-concerns-ahead-general-election/73656976",
+        "publishedAt": "2026-09-09",
+        "relevanceSummary": "State election officials reiterate that Pennsylvania’s mail-voting rules remain the same and emphasize that voters, including those in PA-07, must request mail ballots by Oct. 27 and ensure they are received by county offices by 8 p.m. on Election Day.[12]",
+        "tag": "voter-info",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-09-pa07-auto",
-      "startedAt": "2026-09-09T09:08:55.721Z",
-      "completedAt": "2026-09-09T09:10:34.778Z",
+      "id": "run-2026-09-16-pa07-auto",
+      "startedAt": "2026-09-16T09:40:05.514Z",
+      "completedAt": "2026-09-16T09:41:13.663Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 11,
-      "updatesCreated": 5,
+      "sourcesChecked": 12,
+      "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-09 for PA-07. Sources checked: 11. LLM verifications: 9. 5 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-16 for PA-07. Sources checked: 12. LLM verifications: 8. 7 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-16T09:10:34.778Z",
+    "NEXT_REFRESH_AT": "2026-09-23T09:41:13.663Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa07-2026-w25",
       "periodStart": "2026-06-03",
