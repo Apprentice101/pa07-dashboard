@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-16",
-  "updatedAt": "2026-09-16T09:41:13.663Z",
-  "exportedAt": "2026-09-16T09:53:41.348Z",
+  "dataAsOf": "2026-09-23",
+  "updatedAt": "2026-09-23T09:30:06.294Z",
+  "exportedAt": "2026-09-23T09:40:03.709Z",
   "districtCode": "PA-07",
   "data": {
     "DISTRICT": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "high"
       },
       "src-pa-dos-voter-id-guidance-2025": {
@@ -104,7 +104,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-09-09",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "high"
       },
       "src-pa-dos-mail-ballot-id": {
@@ -128,7 +128,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "high"
       },
       "src-pa-register": {
@@ -201,7 +201,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-23",
         "confidence": "high"
       },
       "src-northampton-elections": {
@@ -250,7 +250,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 7,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "medium",
         "notes": "Used as district-context/secondary source for PA-07 boundary and previous results. Cross-check against an official map source before public reliance."
       },
@@ -1660,20 +1660,100 @@
         "relevanceSummary": "State election officials reiterate that Pennsylvania’s mail-voting rules remain the same and emphasize that voters, including those in PA-07, must request mail ballots by Oct. 27 and ensure they are received by county offices by 8 p.m. on Election Day.[12]",
         "tag": "voter-info",
         "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0px8azz",
+        "headline": "Pennsylvania Department of State Releases New Toolkit ...",
+        "sourceName": "Pennsylvania Department of State",
+        "url": "https://www.pa.gov/agencies/dos/newsroom/dos-releases-new-toolkit-for-on-demand-voting",
+        "publishedAt": "2026-09-22",
+        "relevanceSummary": "The Department of State’s toolkit explains that eligible Pennsylvania voters may vote by on-demand mail ballot at a county elections office or authorized satellite location through October 27. It also states that polling places are open from 7 a.m. to 8 p.m. on Election Day and that mail ballots must be received by 8 p.m. November 3.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0zfwgt6",
+        "headline": "As mail ballots begin to go out, Pa.'s top election official says midterms will be business as usual",
+        "sourceName": "Pennsylvania Capital-Star",
+        "url": "https://penncapital-star.com/election-2026/as-mail-ballots-begin-to-go-out-pa-s-top-election-official-says-midterms-will-be-business-as-usual/",
+        "publishedAt": "2026-09-22",
+        "relevanceSummary": "Pennsylvania’s top election official describes the state’s mail-ballot process and says voters may visit a county election office or designated satellite office to request, complete, and return a mail ballot to an election worker. This statewide procedure applies to PA-07 voters.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0zfvbka",
+        "headline": "Mail ballots begin arriving ahead of Nov. 3 election",
+        "sourceName": "The Lewistown Sentinel",
+        "url": "https://www.lewistownsentinel.com/news/local-news/2026/09/mail-ballots-begin-arriving-ahead-of-nov-3-election/",
+        "publishedAt": "2026-09-22",
+        "relevanceSummary": "The article reports Pennsylvania’s October 19 voter-registration deadline, the 5 p.m. October 27 deadline for mail-ballot applications, and the requirement that completed ballots arrive at county election offices by 8 p.m. November 3; a postmark by Election Day is not enough.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0ffqhhg",
+        "headline": "Secretary of the Commonwealth Reminds Eligible Pennsylvanians ...",
+        "sourceName": "Pennsylvania Department of State",
+        "url": "https://www.pa.gov/agencies/dos/newsroom/secretary-reminds-eligible-pennsylvanians-of-oct--19-registratio",
+        "publishedAt": "2026-09-21",
+        "relevanceSummary": "The Secretary of the Commonwealth reminds Pennsylvania voters that registration ends October 19, mail-ballot applications must reach county election boards by 5 p.m. October 27, and voted mail ballots must be received by 8 p.m. November 3. The guidance applies directly to PA-07 voters.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0m1y2mj",
+        "headline": "Mail-in Voting Heads into November: What Changed in Some States This Week",
+        "sourceName": "Mundo Now",
+        "url": "https://www.mundonow.com/en/mail-in-voting-heads-into-november-what-changed-in-some-states-this-week/",
+        "publishedAt": "2026-09-19",
+        "relevanceSummary": "The Pennsylvania-focused portion reports that voter registration ends October 19, mail-ballot applications are due by 5 p.m. October 27, and completed ballots must arrive by 8 p.m. November 3; a postmark alone is insufficient. It also reminds voters to use the correct envelope and complete, sign, and date the declaration.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0lg17iw",
+        "headline": "Mail-In Ballots Sent Out In Montgomery County",
+        "sourceName": "Patch",
+        "url": "https://patch.com/pennsylvania/norristown/mail-ballots-sent-out-montgomery-county",
+        "publishedAt": "2026-09-18",
+        "relevanceSummary": "Montgomery County began mailing ballots and reported that applications are due by October 27 and completed ballots must be received by 8 p.m. on Election Day; the article also lists county secure drop-box locations. Montgomery County includes portions of PA-07, making this directly relevant to district voters in the county.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0pay1zn",
+        "headline": "Voting in Pa. for the first time? Here’s what young voters need to know",
+        "sourceName": "WHYY",
+        "url": "https://whyy.org/articles/election-2026-pennsylvania-young-voters-guide/",
+        "publishedAt": "2026-09-18",
+        "relevanceSummary": "This Pennsylvania voter guide identifies the October 27 deadline to request an absentee or mail ballot and the November 3, 8 p.m. deadline for county boards to receive completed ballots. It also notes that voters who miss the regular request deadline may seek an emergency absentee ballot if unable to vote in person.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-07qfhi0",
+        "headline": "Update: Tupone stays off PA-07 ballot as state Supreme Court ...",
+        "sourceName": "Armchair Lehigh Valley",
+        "url": "https://armchairlehighvalley.substack.com/p/update-tupone-stays-off-pa-07-ballot",
+        "publishedAt": "2026-09-18",
+        "relevanceSummary": "The Pennsylvania Supreme Court affirmed the removal of self-described Green Party candidate Andrew Tupone from the PA-07 November ballot, confirming that no third-party candidate will appear in the race.",
+        "tag": "ballot-access",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-16-pa07-auto",
-      "startedAt": "2026-09-16T09:40:05.514Z",
-      "completedAt": "2026-09-16T09:41:13.663Z",
+      "id": "run-2026-09-23-pa07-auto",
+      "startedAt": "2026-09-23T09:29:22.655Z",
+      "completedAt": "2026-09-23T09:30:06.294Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 12,
+      "sourcesChecked": 13,
       "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-16 for PA-07. Sources checked: 12. LLM verifications: 8. 7 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-23 for PA-07. Sources checked: 13. LLM verifications: 7. 6 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-23T09:41:13.663Z",
+    "NEXT_REFRESH_AT": "2026-09-30T09:30:06.294Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa07-2026-w25",
       "periodStart": "2026-06-03",
