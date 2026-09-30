@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-23",
-  "updatedAt": "2026-09-23T09:30:06.294Z",
-  "exportedAt": "2026-09-23T09:40:03.709Z",
+  "dataAsOf": "2026-09-30",
+  "updatedAt": "2026-09-30T10:29:39.463Z",
+  "exportedAt": "2026-09-30T10:40:07.797Z",
   "districtCode": "PA-07",
   "data": {
     "DISTRICT": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "high"
       },
       "src-pa-dos-voter-id-guidance-2025": {
@@ -104,7 +104,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-09-09",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "high"
       },
       "src-pa-dos-mail-ballot-id": {
@@ -201,7 +201,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "high"
       },
       "src-northampton-elections": {
@@ -250,7 +250,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 7,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "medium",
         "notes": "Used as district-context/secondary source for PA-07 boundary and previous results. Cross-check against an official map source before public reliance."
       },
@@ -1740,20 +1740,100 @@
         "relevanceSummary": "The Pennsylvania Supreme Court affirmed the removal of self-described Green Party candidate Andrew Tupone from the PA-07 November ballot, confirming that no third-party candidate will appear in the race.",
         "tag": "ballot-access",
         "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0wl4txy",
+        "headline": "Drop Boxes Installed Across Lackawanna County Ahead of Nov. 3 Election",
+        "sourceName": "WILK Newsradio",
+        "url": "https://www.audacy.com/wilknews/news/local/drop-boxes-lackawanna-county",
+        "publishedAt": "2026-09-29",
+        "relevanceSummary": "Lackawanna County announced six drop-box locations and hours, along with the statewide Oct. 19 voter-registration deadline and Oct. 27 mail-ballot application deadline. The county is outside PA-07, but the coverage concerns Pennsylvania election administration and deadlines.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0mxm0hu",
+        "headline": "Key dates, details to know before voting in PA midterms in Allegheny",
+        "sourceName": "USA Today",
+        "url": "https://www.usatoday.com/story/news/state/pennsylvania/pittsburgh/2026/09/29/dates-details-pittsburgh-allegheny-county-pa-midterm-election-voting/91822580007/",
+        "publishedAt": "2026-09-29",
+        "relevanceSummary": "Allegheny County published dates and locations for returning absentee or mail ballots to satellite election offices between Oct. 7 and Oct. 25. This is county-level Pennsylvania election-administration coverage and may inform procedures in other counties, although Allegheny is outside PA-07.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0s3eaw2",
+        "headline": "What Pennsylvania mail voters need to know before November",
+        "sourceName": "GoErie",
+        "url": "https://www.goerie.com/story/news/politics/elections/state/2026/09/28/what-pennsylvania-mail-voters-need-to-know-before-midterms/91925535007/",
+        "publishedAt": "2026-09-28",
+        "relevanceSummary": "The article reports that Pennsylvania mail-ballot procedures had not changed since the May primary, according to Secretary of State Al Schmidt, providing statewide guidance relevant to PA-07 voters preparing to vote by mail.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0ewjxh1",
+        "headline": "As mail ballots begin to go out, Pa.’s top election official says midterms will be business as usual",
+        "sourceName": "Mon Valley Independent",
+        "url": "https://www.monvalleyindependent.com/2026/09/26/as-mail-ballots-begin-to-go-out-pa-s-top-election-official-says-midterms-will-be-business-as-usual/",
+        "publishedAt": "2026-09-26",
+        "relevanceSummary": "Pennsylvania’s top election official said mail ballots were being sent to voters and described in-person mail-ballot application and return services at county or satellite offices. The statewide procedures apply directly to PA-07 voters.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0fbwf5l",
+        "headline": "Heading Back to Harrisburg - with Sights on AI",
+        "sourceName": "Pennsylvania House of Representatives",
+        "url": "https://www.pahouse.com/nelson/EmailArchive/?id=145381",
+        "publishedAt": "2026-09-25",
+        "relevanceSummary": "The legislative update states that secure ballot drop boxes opened Sept. 21, 2026, and remain available through 8 p.m. on Election Day. This provides Pennsylvania-wide procedural information relevant to PA-07 voters, though the item is an official legislative communication rather than independent news coverage.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0hn5h9l",
+        "headline": "Lackawanna County sends out 17,000-plus mail-in ballots, deploys drop boxes",
+        "sourceName": "The Times-Tribune",
+        "url": "https://www.thetimes-tribune.com/2026/09/25/lackawanna-county-sends-out-17000-plus-mail-in-ballots-deploys-drop-boxes/",
+        "publishedAt": "2026-09-25",
+        "relevanceSummary": "Lackawanna County deployed six secure drop boxes and reminded voters that completed mail ballots must be received by 8 p.m. on Election Day; a postmark alone is insufficient. The county-specific details are outside PA-07 but reflect Pennsylvania ballot-administration practices.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0xp9t4b",
+        "headline": "Philadelphia City Commissioners",
+        "sourceName": "Philadelphia City Commissioners",
+        "url": "https://vote.phila.gov/news/2026/09/24/2026-general-election-unverifiable-identification-undeliverable-and-or-potentially-flawed-ballots/",
+        "publishedAt": "2026-09-25",
+        "relevanceSummary": "Philadelphia election officials explained how voters can provide a photocopy or photograph of acceptable identification and seek help verifying potentially flawed ballots. The county-specific process is outside PA-07 but is relevant as Pennsylvania county-level mail-ballot administration.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-012o0b1",
+        "headline": "How to vote in the 2026 midterm elections in Pennsylvania - Votebeat",
+        "sourceName": "Votebeat",
+        "url": "https://www.votebeat.org/pennsylvania/2026/09/25/2026-election-how-to-vote-mail-ballots-voter-id/",
+        "publishedAt": "2026-09-25",
+        "relevanceSummary": "Pennsylvania voters can request mail ballots without providing a reason; applications are due by 5 p.m. on Oct. 27. The article also explains return options, including county offices, designated drop boxes, and satellite voting locations, which apply to PA-07 voters under statewide rules.",
+        "tag": "voter-info",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-23-pa07-auto",
-      "startedAt": "2026-09-23T09:29:22.655Z",
-      "completedAt": "2026-09-23T09:30:06.294Z",
+      "id": "run-2026-09-30-pa07-auto",
+      "startedAt": "2026-09-30T10:28:55.344Z",
+      "completedAt": "2026-09-30T10:29:39.463Z",
       "triggerType": "scheduled",
       "sourcesChecked": 13,
       "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-23 for PA-07. Sources checked: 13. LLM verifications: 7. 6 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-30 for PA-07. Sources checked: 13. LLM verifications: 8. 5 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-30T09:30:06.294Z",
+    "NEXT_REFRESH_AT": "2026-10-07T10:29:39.463Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa07-2026-w25",
       "periodStart": "2026-06-03",
