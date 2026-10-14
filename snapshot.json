@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-10-07",
-  "updatedAt": "2026-10-07T11:05:52.268Z",
-  "exportedAt": "2026-10-07T11:15:28.165Z",
+  "dataAsOf": "2026-10-14",
+  "updatedAt": "2026-10-14T09:26:04.326Z",
+  "exportedAt": "2026-10-14T09:34:53.559Z",
   "districtCode": "PA-07",
   "data": {
     "DISTRICT": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "high"
       },
       "src-pa-dos-voter-id-guidance-2025": {
@@ -104,7 +104,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-09-09",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "high"
       },
       "src-pa-dos-mail-ballot-id": {
@@ -164,7 +164,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "high"
       },
       "src-pa-title25": {
@@ -250,7 +250,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 7,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "medium",
         "notes": "Used as district-context/secondary source for PA-07 boundary and previous results. Cross-check against an official map source before public reliance."
       },
@@ -1900,20 +1900,100 @@
         "relevanceSummary": "This statewide Pennsylvania report says mail-in ballots must be received by the county board of elections by 8 p.m. on Election Day to be counted, a deadline that applies to PA-07 voters.",
         "tag": "deadline",
         "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0nfze0d",
+        "headline": "Juniata County is ready for Election Day ballots",
+        "sourceName": "Lewistown Sentinel",
+        "url": "https://www.lewistownsentinel.com/news/local-news/2026/10/juniata-county-is-ready-for-election-day-ballots/",
+        "publishedAt": "2026-10-14",
+        "relevanceSummary": "The county report gives Pennsylvania voters the Oct. 19 registration deadline, Oct. 27 mail-ballot application deadline, 8 p.m. Election Day receipt rule, polling hours, and local polling locations. Juniata County is outside PA-07, so its direct relevance is indirect but useful for statewide procedural comparison.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-02o46u6",
+        "headline": "Erie County voter guide: What to know before Election Day",
+        "sourceName": "GoErie",
+        "url": "https://www.goerie.com/story/news/politics/elections/2026/10/13/erie-county-pa-voter-guide-november-2026-general-election/92158201007/",
+        "publishedAt": "2026-10-13",
+        "relevanceSummary": "The guide covers Pennsylvania-wide poll hours, the Oct. 19 registration deadline, the Oct. 27 mail-ballot application deadline, and the 8 p.m. Election Day receipt deadline. Erie County’s administrative guidance is outside PA-07 but is relevant as county-level Pennsylvania procedure.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-07wbr10",
+        "headline": "Trump shifts position on mail-in voting: Pennsylvania rules and deadlines",
+        "sourceName": "WGAL",
+        "url": "https://www.wgal.com/article/trump-mail-in-voting-pennsylvania/74117163",
+        "publishedAt": "2026-10-13",
+        "relevanceSummary": "The article summarizes statewide Pennsylvania mail-voting rules: no-excuse mail voting, on-demand mail-ballot voting at designated county locations, the Oct. 19 and Oct. 27 deadlines, and the requirement that completed ballots arrive by 8 p.m. Election Day in the secrecy envelope with a signed and dated declaration.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-02vu94j",
+        "headline": "Pennsylvania election officials face added scrutiny ahead of the midterms",
+        "sourceName": "Pittsburgh Post-Gazette",
+        "url": "https://www.post-gazette.com/news/politics-local/2026/10/12/pennsylvania-election-security/stories/202610090052",
+        "publishedAt": "2026-10-12",
+        "relevanceSummary": "The statewide election-administration report highlights scrutiny of Pennsylvania election officials and notes that Oct. 27 is the deadline to apply for a mail ballot. The administrative and security context is relevant to PA-07 voters, although the search result provides limited district-specific detail.",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0ty8693",
+        "headline": "Everything You Need to Know About Mail Voting in PA",
+        "sourceName": "Saucon Source",
+        "url": "https://sauconsource.com/2026/10/12/everything-you-need-to-know-about-mail-voting-in-pa/",
+        "publishedAt": "2026-10-12",
+        "relevanceSummary": "This statewide guide explains how Pennsylvania voters can request mail ballots, the Oct. 19 registration deadline, the Oct. 27 application deadline, and identification options required when applying, including a Pennsylvania driver’s license or the last four Social Security digits.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0ri9cm5",
+        "headline": "Your guide to the Nov. 3, 2026 election in York County",
+        "sourceName": "York Daily Record",
+        "url": "https://www.ydr.com/story/news/politics/elections/2026/10/12/york-county-election-guide-for-the-november-2026-mid-term-elections/92043397007/",
+        "publishedAt": "2026-10-12",
+        "relevanceSummary": "The article details Pennsylvania deadlines and mail-ballot procedures, including the Oct. 19 registration deadline, Oct. 27 application deadline, secrecy-envelope requirement, and signature/date requirement on the outer envelope. York County administration is relevant as county-level precedent for Pennsylvania voters, though its direct PA-07 impact is indirect.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-0mjke4i",
+        "headline": "Lehigh Valley and Pa. guide to 2026 election",
+        "sourceName": "The Morning Call",
+        "url": "https://www.mcall.com/2026/10/08/lehigh-valley-pa-november-2026-midterm-elections-guide/",
+        "publishedAt": "2026-10-08",
+        "relevanceSummary": "This Pennsylvania election guide explains on-demand mail-ballot voting, identification requirements at county election offices, the Oct. 27 application deadline, and the 8 p.m. Election Day receipt deadline. The county-specific operating details are outside PA-07 but illustrate procedures that may apply similarly across Pennsylvania counties.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-pa07-022borh",
+        "headline": "Pennsylvania voting rights: what to know for Nov. 3 election",
+        "sourceName": "Spotlight PA",
+        "url": "https://www.spotlightpa.org/news/2026/10/pennsylvania-general-election-day-2026-voter-rights-elections/",
+        "publishedAt": "2026-10-08",
+        "relevanceSummary": "This statewide voter guide applies directly to PA-07 voters: only first-time voters at a polling location need identification, while voters without required ID may cast a provisional ballot. It also explains how to spoil a mail ballot at the polling place and gives the Oct. 19 registration and Oct. 27 mail-ballot application deadlines.",
+        "tag": "voter-id",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-10-07-pa07-auto",
-      "startedAt": "2026-10-07T11:05:02.713Z",
-      "completedAt": "2026-10-07T11:05:52.268Z",
+      "id": "run-2026-10-14-pa07-auto",
+      "startedAt": "2026-10-14T09:25:29.705Z",
+      "completedAt": "2026-10-14T09:26:04.326Z",
       "triggerType": "scheduled",
       "sourcesChecked": 12,
       "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-10-07 for PA-07. Sources checked: 12. LLM verifications: 9. 5 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-10-14 for PA-07. Sources checked: 12. LLM verifications: 9. 5 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-10-14T11:05:52.268Z",
+    "NEXT_REFRESH_AT": "2026-10-21T09:26:04.326Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa07-2026-w25",
       "periodStart": "2026-06-03",
