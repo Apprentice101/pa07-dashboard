@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-11-18",
-  "updatedAt": "2026-11-18T12:35:41.055Z",
-  "exportedAt": "2026-11-18T12:43:24.095Z",
+  "dataAsOf": "2026-11-25",
+  "updatedAt": "2026-11-25T13:46:45.674Z",
+  "exportedAt": "2026-11-25T13:52:14.838Z",
   "districtCode": "PA-07",
   "data": {
     "DISTRICT": {
@@ -80,7 +80,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-11-18",
+        "lastVerified": "2026-11-25",
         "confidence": "high"
       },
       "src-pa-mail-absentee": {
@@ -92,7 +92,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-11-18",
+        "lastVerified": "2026-11-25",
         "confidence": "high"
       },
       "src-pa-dos-voter-id-guidance-2025": {
@@ -104,7 +104,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-09-09",
-        "lastVerified": "2026-11-18",
+        "lastVerified": "2026-11-25",
         "confidence": "high"
       },
       "src-pa-dos-mail-ballot-id": {
@@ -250,7 +250,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 7,
         "dateAccessed": "2026-01-12",
-        "lastVerified": "2026-11-18",
+        "lastVerified": "2026-11-25",
         "confidence": "medium",
         "notes": "Used as district-context/secondary source for PA-07 boundary and previous results. Cross-check against an official map source before public reliance."
       },
@@ -2063,17 +2063,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-11-18-pa07-auto",
-      "startedAt": "2026-11-18T12:35:35.706Z",
-      "completedAt": "2026-11-18T12:35:41.055Z",
+      "id": "run-2026-11-25-pa07-auto",
+      "startedAt": "2026-11-25T13:46:39.958Z",
+      "completedAt": "2026-11-25T13:46:45.674Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 15,
+      "sourcesChecked": 16,
       "updatesCreated": 0,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-11-18 for PA-07. Sources checked: 15. LLM verifications: 8. 5 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-11-25 for PA-07. Sources checked: 16. LLM verifications: 10. 4 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-11-25T12:35:41.055Z",
+    "NEXT_REFRESH_AT": "2026-12-02T13:46:45.674Z",
     "WEEKLY_REPORT": {
       "id": "wr-pa07-2026-w25",
       "periodStart": "2026-06-03",
